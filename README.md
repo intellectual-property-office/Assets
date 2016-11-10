@@ -18,6 +18,8 @@ Publish any changes to the package as per normal NPM standards.
 - <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">Publishing npm packages</a>
 - <a href="https://docs.npmjs.com/getting-started/semantic-versioning">Semantic versioning and npm</a>
 
+Ensure that any changes made to the package are also reflected in this repository.
+
 ## Help
 
 For additional guidance, contact the UX team. 
