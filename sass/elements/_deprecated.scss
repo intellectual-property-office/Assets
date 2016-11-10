@@ -1,0 +1,49 @@
+﻿@import "_frontend-toolkit-import.scss";
+/*
+    *
+    *
+    *
+    Deprecated styles - no not use, will be deleted
+    *
+    *
+    *
+*/
+.details-name-value {
+    h2 {
+        margin: 20px 0 10px;
+    }
+    dd {
+        margin: 0;
+    }
+    .input-medium, textarea {
+        font-size: 19px;
+        padding: 3px;
+        width: 50%;
+        @include media(mobile) {
+            width: 100%;
+        }
+    }
+    .input-large {
+        max-width: 50%;
+        @include media(mobile) {
+            max-width: 100%;
+        }
+    }
+    .field-validation-error span {
+        display: block;
+        color: #b10e1e;
+        margin: 0 0 10px;
+    }
+}
+.ui-dialog {
+    z-index: 10;
+}
+.submit-link {
+    font-size: 1em;
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: #2e3191;
+    cursor: pointer;
+    margin: 5px 0;
+}

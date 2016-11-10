@@ -1,0 +1,14 @@
+{
+  "name": "ipo-assets-frontend",
+  "version": "1.0.3",
+  "description": "Intellectual Property Office internal CSS styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IPO"
+  ],
+  "author": "Intellectual Property Office UX Team <userexperience@ipo.gov.uk>",
+  "license": "ISC"
+}

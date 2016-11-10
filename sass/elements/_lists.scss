@@ -1,0 +1,38 @@
+﻿@import "_frontend-toolkit-import.scss";
+// For data feedback where you need to couple a piece of data with a label.
+dl.data {
+    dd {
+        margin-left: 0;
+    }
+}
+ul.selection-list {
+    margin: $gutter 0 $gutter*2;
+    li {
+        margin: 0 0 $gutter-half;
+        font-weight: bold;
+    }
+}
+li {
+    a {    
+        .page-reference {
+            color: $black;
+            display: inline;
+            @include bold-19;
+            position: relative;
+            padding: 5px;
+            text-decoration: none;
+        }
+    }
+}
+.no-bullet {
+    list-style-type: none;
+    li {
+        margin-bottom: 1em;
+    }
+}
+
+
+.file-upload li
+{
+    @include core-16
+}

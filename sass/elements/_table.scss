@@ -1,0 +1,54 @@
+﻿@import "_frontend-toolkit-import.scss";
+table {
+    .heading-medium {
+        margin-top: $gutter-two-thirds;
+    }
+    .heading-medium, p {
+        max-width: 570px;
+    }
+}
+table + p {
+    margin-top: $gutter-half;
+}
+
+.date {
+    white-space: nowrap;
+}
+
+.table-basic {
+    margin: 0;
+    th {
+        border-bottom: none;
+        vertical-align: top
+    }
+    td {
+        border-bottom: none;
+        vertical-align: top
+    }
+    strong {
+        font-weight: bold;
+    }
+}
+
+.table-classification
+{
+    margin: 0;
+}
+.table-classification tr
+{
+    border-bottom: 1px dashed #CCC
+}
+.table-classification tr:last-child
+{
+    border-bottom: 1px solid #AAA
+}
+.table-classification th,
+.table-classification td
+{
+    border-bottom: none;
+    vertical-align: top
+}
+.table-classification strong
+{
+    font-weight: 600
+}

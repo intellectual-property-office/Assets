@@ -1,0 +1,209 @@
+﻿
+@import "_frontend-toolkit-import.scss";
+
+
+/*###################
+### FILE UPLOADER ###
+####################*/
+
+
+.upload-requirements h2{
+    margin-top: 0;
+}
+.upload-requirements h3{
+    margin-top: 0.5em;
+    font-size: 20px
+}
+.upload-requirements .column-third {
+    margin-bottom: 1em; 
+}
+
+
+.file-uploader-wrap {
+	background-color: $grey-4;
+	border: 2px dashed $grey-3;
+	padding: 0.5em 1em;
+	text-align: left;
+	margin-bottom: 0.5em;
+}
+.file-uploader {
+	display: block;
+	.heading-small {
+		margin-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	.fileinput-button {
+		margin-top: 0.6em;
+		padding-bottom: 0.5em;
+	}
+	.hide {
+		display: none;
+	}
+	.progress-data {
+		display: block;
+		right: 0;
+		padding-top: 0.5em;
+		text-align: center;
+		width: 100%;
+		span {
+			display: block;
+			font-weight: 700;
+			text-align: center;
+			font-size: 36px;
+		}
+	}
+	.progress {
+		height: 30px;
+		margin: 0;
+		text-align: center;
+		overflow: hidden;
+		background-color:#222;
+	}
+	.progress-bar {
+		float: left;
+		width: 0;
+		height: 30px;
+		transition: width 0.6s ease;
+		background-color: $govuk-blue;
+		display: block;
+		border: none !important;
+	}
+	.upload-progress {
+		padding: 0.5em 0;
+		text-align: center;
+		p {
+			margin-bottom: 0.5em;
+		}
+	}
+	.drag-drop {
+		display: inline-block;
+		i {
+			&.fa-file-o {
+				color: #999;
+			}
+			&.fa-mouse-pointer {
+				color: #333;
+			}
+		}
+	}
+	.drag-drop-text {
+		display: inline-block;
+		padding: 0 0 0 0.2em;
+		margin: 0;
+	}
+}
+@media(min-width: 641px) {
+	.file-uploader {
+		.hide {
+			display: block;
+		}
+		.column-half.hide {
+			padding-bottom: 0.5em;
+		}
+	}
+}
+
+
+
+// BELIEVE CODE BELOW IS NOW LONGER USED - DELETE?
+
+/*
+
+section.upload {
+border: 3px dashed $grey-1;
+padding: $gutter*2 0;
+text-align: center;
+color: $grey-1;
+background-color: $grey-3;
+.heading-medium {
+    margin: 0;
+}
+} 
+.progress {
+    h1 {
+        margin: $gutter-one-third 0;
+    }
+    .progress-bar {
+        .progress-percentage {
+            display: block;
+            background-color: $purple;
+            height: $gutter;
+        }
+    }
+}
+
+.image-frame-large {
+    white-space: nowrap;
+    text-align: center; 
+    border: 1px solid black; 
+    width: 160px; 
+    height: 160px; 
+    margin: 10px; 
+    padding: 5px 5px 5px 5px;
+}
+
+.uploaded-frame {
+    border: 1px solid black; 
+}
+
+.upload-frame {
+    border: 1px dotted black; 
+}
+
+.thumbnail-container {
+    float: left;
+    padding-right: 10px;
+}
+
+.image-detail-container span {
+    
+    display: block;
+}
+
+.upload-container {
+    margin: 10px;
+    display: inline-block;
+}
+
+.image-frame {
+    white-space: nowrap;
+    text-align: center; 
+    border: 1px solid #999; 
+    margin: 10px;
+    padding: 5px 5px 5px 2px;
+    float: left;
+}
+
+.image-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.image-thumb {
+    vertical-align: middle;
+    max-width: 170px; 
+    max-height: 170px;
+}
+
+.img-medium {
+    vertical-align: middle;
+    max-width: 170px; 
+    max-height: 170px; 
+    margin: auto auto auto auto; 
+}
+.img-small {
+    vertical-align: middle;
+    max-width: 60px; 
+    max-height: 60px; 
+    margin: auto auto auto auto; 
+}
+
+*/
+
+
+
+
+
+
+

@@ -1,0 +1,258 @@
+﻿
+@import "_frontend-toolkit-import.scss";
+
+
+/*##################
+##### LIGHTBOX #####
+##################*/
+
+
+//colors
+$black_70: rgba(0, 0, 0, .7 );
+$black_60: rgba(0, 0, 0, .6 );
+
+
+#imagelightbox {
+	cursor: pointer;
+	position: fixed;
+	z-index: 10000;
+	touch-action: none;
+	box-shadow: 0 0.5em 0.5em $black_70;
+}
+#imagelightbox-loading {
+	border-radius: 9999px;
+	background-color: $black_60;
+	position: fixed;
+	z-index: 10003;
+	top: 50%;
+	left: 50%;
+	padding: 0.65em;
+	margin: -1.3em 0 0 -1.3em;
+	div {
+		border-radius: 9999px;
+		width: 1.3em;
+		height: 1.3em;
+		background-color: $white;
+		animation: imagelightbox-loading .5s ease infinite;
+	}
+}
+@keyframes imagelightbox-loading {
+	from {
+		opacity: .5;
+		transform: scale(.75);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	to {
+		opacity: .5;
+		transform: scale(.75);
+	}
+}
+#imagelightbox-overlay {
+	background-color: $black_70;
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+#imagelightbox-close {
+	width: 2.5em;
+	height: 2.5em;
+	position: fixed;
+	z-index: 10002;
+	border: none;
+	top: 5em;
+	right: 3em;
+	background-color: $black_60;
+	-webkit-transition: color .3s ease;
+	transition: color .3s ease;
+}
+#imagelightbox-close:hover
+{
+    cursor: pointer;
+    background-color: $yellow;
+    outline: none;
+}
+#imagelightbox-close:active,
+#imagelightbox-close:focus
+{
+    outline: none;
+    background-color: $yellow;
+}
+#imagelightbox-close:before,
+#imagelightbox-close:after
+{
+	width: 2px;
+	background-color: #fff;
+	content: '';
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+	left: 50%;
+	margin-left: -1px;
+}
+#imagelightbox-close:before
+{
+	-webkit-transform: rotate( 45deg );
+	-ms-transform: rotate( 45deg );
+	transform: rotate( 45deg );
+}
+#imagelightbox-close:after
+{
+	-webkit-transform: rotate( -45deg );
+	-ms-transform: rotate( -45deg );
+	transform: rotate( -45deg );
+}
+
+
+
+
+
+#imagelightbox-caption {
+	text-align: center;
+	color: $white;
+	background-color: $black_60;
+	position: fixed;
+	z-index: 10001;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0.625em;
+}
+#imagelightbox-nav {
+	background-color: $black_60;
+	position: fixed;
+	z-index: 10001;
+	left: 50%;
+	bottom: 3.75em;
+	padding: 0.313em;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	a {
+		width: 1em;
+		height: 1em;
+		border: 1px solid $white;
+		display: inline-block;
+		margin: 0 0.313em;
+		border-radius: 50%;
+	}
+	.active {
+		background-color: $white;
+	}
+}
+.imagelightbox-arrow {
+	width: 3.75em;
+	height: 7.5em;
+	background-color: $black_60;
+	vertical-align: middle;
+	display: none;
+	position: fixed;
+	z-index: 10001;
+	top: 50%;
+	margin-top: -3.75em;
+	border: none;
+	transition: all .15s ease-in-out;
+	&:hover
+        {
+        cursor: pointer;
+        background-color: $yellow;
+        outline: none;
+	    }
+    &:active,
+    &:focus
+        {
+        outline: none;
+        background-color: $yellow;
+	    }
+	&:before {
+		width: 0;
+		height: 0;
+		border: 1em solid transparent;
+		content: '';
+		display: inline-block;
+		margin-bottom: -0.125em;
+	}
+}
+.imagelightbox-arrow-left {
+	left: 2.5em;
+	&:before {
+		border-left: none;
+		border-right-color: $white;
+		margin-left: -0.313em;
+	}
+}
+.imagelightbox-arrow-right {
+	right: 2.5em;
+	&:before {
+		border-right: none;
+		border-left-color: $white;
+		margin-right: -0.313em;
+	}
+}
+
+
+#imagelightbox-loading {
+	animation: fade-in .25s linear;
+}
+#imagelightbox-overlay {
+	animation: fade-in .25s linear;
+}
+#imagelightbox-close {
+	animation: fade-in .25s linear;
+}
+#imagelightbox-caption {
+	animation: fade-in .25s linear;
+}
+#imagelightbox-nav {
+	animation: fade-in .25s linear;
+}
+.imagelightbox-arrow {
+	animation: fade-in .25s linear;
+}
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@media only screen and (max-width: 41.250em) {
+	#container {
+		width: 100%;
+	}
+	#imagelightbox-close {
+		top: 1.25em;
+		right: 1.25em;
+	}
+	#imagelightbox-nav {
+		bottom: 1.25em;
+	}
+	.imagelightbox-arrow {
+		width: 2.5em;
+		height: 3.75em;
+		margin-top: -2.75em;
+	}
+	.imagelightbox-arrow-left {
+		left: 1.25em;
+	}
+	.imagelightbox-arrow-right {
+		right: 1.25em;
+	}
+}
+@media only screen and (max-width: 20em) {
+	.imagelightbox-arrow-left {
+		left: 0;
+	}
+	.imagelightbox-arrow-right {
+		right: 0;
+	}
+}
+
+

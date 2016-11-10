@@ -1,0 +1,18 @@
+﻿@import "_frontend-toolkit-import.scss";
+#global-header.agency {
+    .header-wrapper .header-global .header-logo {
+        width: 100%;
+    }
+    #logo img {
+        visibility: inherit;
+    }
+    #logo {
+        background: inherit;
+    }
+}
+
+#global-header #logo img.crest {
+    width: 47px;
+    height: 42px;
+    top: -9px;
+}

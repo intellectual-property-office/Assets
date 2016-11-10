@@ -1,0 +1,24 @@
+﻿@import "_frontend-toolkit-import.scss";
+label
+{
+    @include core-19;
+    display: block;
+}
+
+@media (max-width: 640px)
+{
+    label
+    {
+        font-size: 1.6rem;
+        line-height: 1.25;
+    }
+}
+
+.text-ellipsis {
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 95%;
+}

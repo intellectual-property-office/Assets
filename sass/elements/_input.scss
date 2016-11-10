@@ -1,0 +1,74 @@
+﻿@import "_frontend-toolkit-import.scss";
+/*input[type="text"], input[type="number"], input[type="password"], select, textarea {
+    padding: 0.5em;
+}*/
+
+/// TODO: SASS up
+
+.form-control-select {
+  @include core-19;
+  background-color: white;
+  border: 1px solid #bfc1c3;
+  width: 100%;
+}
+
+@media only screen and (min-width: 641px)
+{
+    .form-control-select {
+        width: 50%;
+    }
+}
+
+/// Radios and checkboxes
+
+label.selectable {
+    display: block;
+    position: relative;
+    background: #F0F0F0;
+    padding: 12px 14px 12px 16px;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 641px)
+{
+    label.selectable {
+	    float: left;
+        clear: left;
+	    line-height: 140%;
+	    margin-right: 1em;
+    }
+}
+
+label.selectable-inline {
+    clear: none;
+}
+    
+label.selectable-focus {
+    outline:solid 3px #ffbf47;
+}
+
+label.selectable-focus input:focus {
+    outline:none
+}
+
+label.selected {
+  border: 1px solid #555;
+  background: #fff;
+}
+fieldset.form-group {
+    margin-left: 0;
+}
+
+
+
+/* Form Field Modifier */
+.form-modifier.wide textarea
+{
+    width: 100%;  
+}
+.form-modifier.narrow textarea
+{
+    height: 4em
+}
