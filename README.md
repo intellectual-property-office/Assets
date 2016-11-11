@@ -8,10 +8,6 @@ This is the npm package for IPO local assets.
 
 Requires <a href="https://nodejs.org/en/">node.js</a> version 3.X+
 
-```sh
-$ npm -v
-```
-
 #### 1. Download or clone this repo
 
 #### 3. <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">Login</a> with IPO credentials
