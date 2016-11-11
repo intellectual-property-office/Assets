@@ -6,10 +6,20 @@ This is the npm package for IPO local assets.
 
 ## Installation
 
-1. Download or clone this repo
-2. Install <a href="https://nodejs.org/en/">node.js</a>
-3. Ensure that NPM is version 3.X+ (run 'npm -v' to check)
-3. <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">Login</a> with IPO credentials
+<b>Requirements:</b>
+- <a href="https://nodejs.org/en/">node.js</a>
+
+#### 1. Download or clone this repo
+
+#### 2. Install <a href="https://nodejs.org/en/">node.js</a>
+
+#### 3. Ensure that NPM is version 3.X+
+
+```sh
+$ npm -v
+```
+
+#### 4. <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">Login</a> with IPO credentials
 
 ## Usage
 
