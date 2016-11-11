@@ -10,7 +10,7 @@ Requires <a href="https://nodejs.org/en/">node.js</a> version 3.X+
 
 #### 1. Download or clone this repo
 
-#### 3. <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">Login</a> with IPO credentials
+#### 2. <a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">Login</a> with IPO credentials
 
 ## Usage
 
