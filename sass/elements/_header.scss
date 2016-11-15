@@ -1,18 +1,55 @@
 ﻿@import "_frontend-toolkit-import.scss";
-#global-header.agency {
+#global-header {
+  &.agency {
     .header-wrapper .header-global .header-logo {
-        width: 100%;
-    }
-    #logo img {
-        visibility: inherit;
+      width: 100%;
     }
     #logo {
-        background: inherit;
+      img {
+        visibility: inherit;
+      }
+      background: inherit;
     }
-}
-
-#global-header #logo img.crest {
+  }
+  #logo img.crest {
     width: 47px;
     height: 42px;
     top: -9px;
+  }
+  .header-wrapper .header-global .header-logo {
+    float: none;
+    margin: 5px 0 2px;
+  }
+  #logo {
+    height: 30px;
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+    position: relative;
+    top: 1px;
+    font-family: Arial,sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.11111;
+    text-transform: none;
+    border-bottom: none;
+    img {
+      border: medium none;
+      display: inline;
+      float: left;
+      height: 31px;
+      line-height: inherit;
+      padding-right: 6px;
+      position: relative;
+      top: -2px;
+      width: 35px;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #global-header #logo {
+    font-size: 18px;
+    line-height: 1.6em;
+  }
 }
