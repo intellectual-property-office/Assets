@@ -44,7 +44,7 @@ label.selectable {
 label.selectable-inline {
     clear: none;
 }
-    
+
 label.selectable-focus {
     outline:solid 3px #ffbf47;
 }
@@ -53,10 +53,6 @@ label.selectable-focus input:focus {
     outline:none
 }
 
-label.selected {
-  border: 1px solid #555;
-  background: #fff;
-}
 fieldset.form-group {
     margin-left: 0;
 }
@@ -66,7 +62,7 @@ fieldset.form-group {
 /* Form Field Modifier */
 .form-modifier.wide textarea
 {
-    width: 100%;  
+    width: 100%;
 }
 .form-modifier.narrow textarea
 {
