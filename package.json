@@ -1,6 +1,6 @@
 {
   "name": "ipo-assets-frontend",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Intellectual Property Office internal CSS styles.",
   "main": "index.js",
   "scripts": {
