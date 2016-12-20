@@ -43,25 +43,25 @@ $focus-colour: $yellow;
 					border: none !important;
 				}
 			}
+		}
 
-			.ui-tabs-active {
-				margin: 0 5px 0 0;
+		li.ui-tabs-active {
+			margin: 0 5px 0 0;
 
-				a {
-					background: $background-colour;
-					margin: 0;
-					padding: 16px 14px 15px 9px;
-					border-color: $border-colour;
-					@include media(mobile) {
-						border-bottom: 1px solid $border-colour;
-						width: calc(100% - 10px);
-						padding: 5px 0 5px 5px;
-						text-decoration: none;
-						font-weight: bold;
-					}
-					@include media(desktop) {
-						padding: 16px 19px 15px 14px;
-					}
+			a {
+				background: $background-colour;
+				margin: 0;
+				padding: 16px 14px 15px 9px;
+				border-color: $border-colour;
+				@include media(mobile) {
+					border-bottom: 1px solid $border-colour;
+					width: calc(100% - 10px);
+					padding: 5px 0 5px 5px;
+					text-decoration: none;
+					font-weight: bold;
+				}
+				@include media(desktop) {
+					padding: 16px 19px 15px 14px;
 				}
 			}
 		}
