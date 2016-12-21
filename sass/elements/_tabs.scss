@@ -45,7 +45,7 @@ $focus-colour: $yellow;
 			}
 		}
 
-		li.ui-tabs-active {
+		li.active, li.ui-tabs-active {
 			margin: 0 5px 0 0;
 		}
 
