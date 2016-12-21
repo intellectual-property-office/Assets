@@ -47,6 +47,10 @@ $focus-colour: $yellow;
 
 		li.active, li.ui-tabs-active {
 			margin: 0 5px 0 0;
+
+			&:focus {
+				outline: none;
+			}
 		}
 
 		a {
@@ -101,10 +105,6 @@ $focus-colour: $yellow;
 			}
 			@include media(tablet) {
 				padding: 16px 19px 15px 14px;
-			}
-
-			&:focus {
-				outline: none;
 			}
 
 			.label {
