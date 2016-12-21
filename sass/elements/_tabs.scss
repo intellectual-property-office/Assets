@@ -37,12 +37,6 @@ $focus-colour: $yellow;
 			&:focus {
 				outline: 3px solid $focus-colour;
 			}
-
-			a {
-				&:focus {
-					border: none !important;
-				}
-			}
 		}
 
 		li.active, li.ui-tabs-active {
