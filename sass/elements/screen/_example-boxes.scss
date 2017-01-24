@@ -1,10 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-
-
-
-
-
-// Example boxes
+﻿// Example boxes
 .example {
   @extend %contain-floats;
   position: relative;

@@ -1,11 +1,9 @@
-﻿@import "_frontend-toolkit-import.scss";
-
-fieldset {
+﻿fieldset {
     margin: 0;
 }
 .form-group {
-    .pre-input { 
-        display: block; 
+    .pre-input {
+        display: block;
         float: left;
         margin: 6px 5px 0 0;
         font-weight: bold;

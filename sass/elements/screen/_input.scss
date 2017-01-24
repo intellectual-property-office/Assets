@@ -1,5 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-/*input[type="text"], input[type="number"], input[type="password"], select, textarea {
+﻿/*input[type="text"], input[type="number"], input[type="password"], select, textarea {
     padding: 0.5em;
 }*/
 
@@ -44,7 +43,7 @@ label.selectable {
 label.selectable-inline {
     clear: none;
 }
-    
+
 label.selectable-focus {
     outline:solid 3px #ffbf47;
 }
@@ -62,7 +61,7 @@ fieldset.form-group {
 /* Form Field Modifier */
 .form-modifier.wide textarea
 {
-    width: 100%;  
+    width: 100%;
 }
 .form-modifier.narrow textarea
 {

@@ -1,5 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-// For data feedback where you need to couple a piece of data with a label.
+﻿// For data feedback where you need to couple a piece of data with a label.
 dl.data {
     dd {
         margin-left: 0;
@@ -13,7 +12,7 @@ ul.selection-list {
     }
 }
 li {
-    a {    
+    a {
         .page-reference {
             color: $black;
             display: inline;

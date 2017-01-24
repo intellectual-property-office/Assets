@@ -1,5 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-.page-reference {
+﻿.page-reference {
     display: block;
     background-color: $yellow;
     @include bold-24;
@@ -7,8 +6,8 @@
     top: 0;
     right: 0;
     height: 27px;
-    padding: 13px;  
+    padding: 13px;
     @include media(mobile) {
         height: auto;
-    }  
+    }
 }

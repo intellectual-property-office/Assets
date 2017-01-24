@@ -1,6 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-
-/*########################
+﻿/*########################
 #### HIDDEN TEXT: NEW ####
 ########################*/
 
@@ -49,7 +47,7 @@ details .arrow {
     margin-bottom: 1em
 }
 
-// Progressive Disclosure: Fixes the firefox outline bug, also aligns arrows correctly 
+// Progressive Disclosure: Fixes the firefox outline bug, also aligns arrows correctly
 .toggle {
     @include core-19;
     line-height: 1.5;
@@ -59,7 +57,7 @@ details .arrow {
     clear: both;
     margin: 1em 0;
     padding-right: 0.3em;
-} 
+}
  .toggle-closed {
     background: url("/assets/images/icon-caret-right.png") no-repeat scroll 0.1em 0.45em;
     padding-left: 0.75em;
@@ -74,12 +72,12 @@ details .arrow {
 .panel-indent img {
     width: 100%;
     height: auto
-} 
+}
 @media (min-width: 641px) {
     .panel-indent img {
     width: auto;
     height: auto
-    } 
+    }
 }
 
 // Progressive Disclosure: No left border
@@ -93,13 +91,11 @@ details .arrow {
 
 // Remove orange background and replace with outline (Which is currently preferred GDS mnethod)
 
-/*.progressive-disclosure-help .toggle-open 
+/*.progressive-disclosure-help .toggle-open
 {
     background: rgba(0, 0, 0, 0) url("/assets/images/icon-caret-down.png") no-repeat scroll left 0.6em;
 }
-.progressive-disclosure-help .toggle-closed 
+.progressive-disclosure-help .toggle-closed
 {
     background: rgba(0, 0, 0, 0) url("/assets/images/icon-caret-right.png") no-repeat scroll 0.1em 0.45em;
 }*/
-
-

@@ -1,5 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-// Max-width set for optimum reading length on headings 
+﻿// Max-width set for optimum reading length on headings 
 .heading-xlarge, .bold-xlarge {
     max-width: 11.875em;
 }
@@ -35,7 +34,7 @@ code {
 }
 
 // "post-code" needs to be deprecated and replaced by "force-case"
-.post-code, .force-case { 
+.post-code, .force-case {
     text-transform: uppercase;
 }
 

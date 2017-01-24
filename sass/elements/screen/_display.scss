@@ -1,11 +1,9 @@
-﻿@import "_frontend-toolkit-import.scss";
-
-/* Register details header section */
+﻿/* Register details header section */
 .main-details {
     padding: $gutter 0 0 0;
     @include media(mobile) {
         padding-top: $gutter-half;
-    } 
+    }
     .subtitle {
         margin: 0;
     }
@@ -15,18 +13,18 @@
             @include bold-48;
             @include media($max-width : 870px) {
                 @include bold-36;
-                
+
             }
             @include media(mobile) {
                 margin-bottom: $gutter-half;
-            } 
+            }
         }
         &.offset {
             padding-top: 26px;
             @include media(mobile) {
                 margin: 0 0 $gutter-half 0;
                 padding: 0;
-            } 
+            }
         }
     }
 }
@@ -56,7 +54,7 @@ section {
     margin-bottom: $gutter;
 }
 
-// Divider: Dash 
+// Divider: Dash
 .divider.dashed
 {
     border-bottom: 1px dashed $grey-3;
@@ -68,7 +66,7 @@ section {
 .group:after {
     content: "";
     display: table;
-} 
+}
 .group:after {
     clear: both;
 }
@@ -78,7 +76,7 @@ section {
 
 
 
-// Alternate: Column Quarter 
+// Alternate: Column Quarter
 .register-results .column-quarter {
 width: 20%;
 }
@@ -112,7 +110,7 @@ width: auto;
 }
 
 // Amend: Register results list image
-section.register-results img 
+section.register-results img
 {
     width: 80px;
 }

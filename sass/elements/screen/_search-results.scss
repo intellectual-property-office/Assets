@@ -1,6 +1,4 @@
-﻿@import "_frontend-toolkit-import.scss";
-
-.results-list {
+﻿.results-list {
     list-style: none;
     margin: 0;
     padding: $gutter-half 0 0;
@@ -31,7 +29,7 @@
         }
       }
     }
-    
+
    li.external {
       border: 1px solid $border-colour;
       padding: 9px;
@@ -109,7 +107,7 @@
       }
     }
   }
-   
+
 
   #top-results {
     position: relative;
@@ -121,14 +119,14 @@
     .results-list {
       padding-top: 0;
     }
-      
+
     .crumbtrail,
     .attributes {
       display: none;
     }
 
   }
-  
+
   #government-results-enhanced {
     @include media(tablet) {
       .filters {
@@ -140,7 +138,7 @@
         float: left;
       }
     }
-  } 
+  }
 
   .no-results {
     overflow: hidden;
@@ -194,7 +192,7 @@
   .tab-pane {
     padding: 0;
   }
-  
+
 
 .search-launcher {
   padding-top: 30px;
@@ -225,11 +223,11 @@
 }
 
 section.register-results {
-    
+
     p.title {
         margin-left: 15px;
         @include core-19;
-        margin-bottom: 0.7em;   
+        margin-bottom: 0.7em;
     }
     dd, dt {
         @include core-16();
@@ -250,4 +248,3 @@ section.register-results {
         display: block;
     }
 }
-

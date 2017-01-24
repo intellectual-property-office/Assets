@@ -1,7 +1,3 @@
-﻿
-@import "_frontend-toolkit-import.scss";
-
-
 /*#############
 ### REORDER ###
 #############*/
@@ -31,7 +27,7 @@
 	}
 
 }
-@media(max-width: 640px) {	
+@media(max-width: 640px) {
     .reorder.desktop
     {
         background: url('/assets/images/draggable-mobile.png') repeat-y top left;
@@ -104,17 +100,17 @@
 	}
 }
 
-@media(max-width: 640px) {	
+@media(max-width: 640px) {
     .reorder.mobile
     {
         display: block
 	}
     .reorder.mobile .move-up,
-    .reorder.mobile .move-down 
+    .reorder.mobile .move-down
     {
         height: 2.7em;
 	}
-	.reorder.mobile .uploaded-number 
+	.reorder.mobile .uploaded-number
     {
 		top: 4.1em;
 		height: 1.8em;
