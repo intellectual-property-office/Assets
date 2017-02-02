@@ -1,14 +1,24 @@
+/* TABBED CONTENT */
+#tabs-1,
+#tabs-2,
+#tabs-3,
+#tabs-4,
+#tabs-5
+{
+    display: block !important;
+}
+
 /* HIDDEN TABBED CONTENT */
 .ui-tabs-panel {
   border: none;
   display: block !important;
-  border-top: 1px solid #000;
+  border-top: none;
   margin: 2em 0;
   padding: 0 0 1em 0;
   &.active {
     border: none;
     display: block !important;
-    border-top: 1px solid #000;
+    border-top: none;
     margin: 2em 0;
     padding: 0 0 1em 0;
   }

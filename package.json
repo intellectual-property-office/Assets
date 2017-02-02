@@ -1,14 +1,78 @@
 {
-  "name": "ipo-assets-frontend",
-  "version": "1.0.19",
+  "_args": [
+    [
+      {
+        "raw": "ipo-assets-frontend",
+        "scope": null,
+        "escapedName": "ipo-assets-frontend",
+        "name": "ipo-assets-frontend",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Projects\\npm\\assets"
+    ]
+  ],
+  "_from": "ipo-assets-frontend@latest",
+  "_id": "ipo-assets-frontend@1.0.19",
+  "_inCache": true,
+  "_location": "/ipo-assets-frontend",
+  "_nodeVersion": "4.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ipo-assets-frontend-1.0.19.tgz_1485427907385_0.24949028226546943"
+  },
+  "_npmUser": {
+    "name": "ipo-dev",
+    "email": "userexperience@ipo.gov.uk"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ipo-assets-frontend",
+    "scope": null,
+    "escapedName": "ipo-assets-frontend",
+    "name": "ipo-assets-frontend",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npmjs.org/ipo-assets-frontend/-/ipo-assets-frontend-1.0.19.tgz",
+  "_shasum": "3c24cf6e42ca6b70ac1c4c17e2542e0ef63e251f",
+  "_shrinkwrap": null,
+  "_spec": "ipo-assets-frontend",
+  "_where": "C:\\Projects\\npm\\assets",
+  "author": {
+    "name": "Intellectual Property Office UX Team",
+    "email": "userexperience@ipo.gov.uk"
+  },
+  "dependencies": {},
   "description": "Intellectual Property Office internal CSS styles.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "3c24cf6e42ca6b70ac1c4c17e2542e0ef63e251f",
+    "tarball": "https://registry.npmjs.org/ipo-assets-frontend/-/ipo-assets-frontend-1.0.19.tgz"
   },
   "keywords": [
     "IPO"
   ],
-  "author": "Intellectual Property Office UX Team <userexperience@ipo.gov.uk>",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ipo-dev",
+      "email": "userexperience@ipo.gov.uk"
+    }
+  ],
+  "name": "ipo-assets-frontend",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.20"
 }

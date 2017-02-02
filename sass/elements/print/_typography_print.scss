@@ -1,0 +1,157 @@
+
+
+main {
+  font-size: 14px !important;
+  line-height: 1.3 !important;
+}
+
+h1.heading-xlarge {
+  font-size: 180%;
+  margin: 0;
+  padding: 1em 0 0.5em 0;
+}
+
+h2 {
+  &.heading-large {
+    font-size: 160% !important;
+    margin: 1em 0 0 0;
+    padding: 1em 0 0 0;
+    border-top: 1px solid #000 !important;
+  }
+  &.heading-medium {
+    font-size: 130% !important;
+    margin: 1em 0 0 0;
+    padding: 1em 0 0 0;
+    border-top: none !important;
+  }
+}
+
+h3.heading-medium {
+  font-size: 130% !important;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+  border-top: none !important;
+}
+
+p {
+  font-size: 100% !important;
+  margin: 0;
+  padding: 0 0 0.5em 0;
+}
+
+dl
+{
+  margin: 1em 0;
+}
+
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+  h1.heading-xlarge {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+dt {
+  font-weight: 700;
+  color: #000;
+  &.bold-small, &.subtitle {
+    font-weight: 700;
+    color: #000;
+  }
+}
+
+dd h1 {
+  font-weight: 700;
+  color: #000;
+}
+
+dt.subtitle {
+  font-size: 140%;
+}
+
+/* CORRECTLY SPACE SPAN ELEMENTS */
+span
+{
+    display: block;
+}
+
+
+
+/* CORRECTLY STYLE BLOCK LABEL ELEMENTS IN FORMS */
+.form-group .block-label {
+    background: none;
+    border: 1px solid #dee0e2;
+    clear: auto;
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+
+/* BREADCRUMB */
+.breadcrumbs {
+    padding: 0 0 1em 0;
+    margin: 0;
+}
+.breadcrumbs ul {
+    padding: 0;
+    margin: 0;
+}
+.breadcrumbs li {
+    background: none;
+    float: none;
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumbs ul li {
+  &:before {
+    font-family: arial, sans-serif;;
+    padding: 0 0.7em 0 0;
+    font-size: 13px;
+    display: inline-block;
+    content: "\003e" !important;
+    color: #BBB;
+  }
+  &:first-child:before {
+    content: "" !important;
+    padding: 0;
+  }
+}
+
+
+
+
+
+/* SPEAK WITH ANDY!!!!!!!!!!! DESIGN SEARCH RESTYLES */
+.search-form h1 label {
+    font-size: 18px;
+    line-height: 1.25;
+}
+.searchfield
+{
+  margin-bottom: 1em
+}
+#search-results-all p
+{
+  font-size: 18px !important;
+}
+.register-results p.title
+{
+  font-size: 18px !important;
+  font-weight: 700
+}
+.register-results
+{
+  margin-top: 1.5em
+}

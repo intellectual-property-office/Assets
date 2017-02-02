@@ -1,14 +1,17 @@
+
 /* SHOW CONTENT */
 .print-only {
   display: block !important;
 }
-hr.print {
+hr.print
+{
   border: none;
   display: block !important;
   border-top: 1px solid #000;
   margin: 1em 0 0 0;
   padding: 1em 0 0 0;
 }
+
 
 /* HIDE CONTENT */
 .phase-banner-alpha, .topmenu, .section-tabs, details, button, .button, .no-print, .link-back, .pagination-alt, hr {

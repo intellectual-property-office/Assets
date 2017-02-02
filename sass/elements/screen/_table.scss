@@ -29,25 +29,32 @@ table + p {
     }
 }
 
-.table-classification
-{
-    margin: 0;
-}
-.table-classification tr
-{
-    border-bottom: 1px dashed #CCC
-}
-.table-classification tr:last-child
-{
-    border-bottom: 1px solid #AAA
-}
-.table-classification th,
-.table-classification td
-{
+
+.table-classification {
+  margin: 0;
+  tr {
+    border-bottom: 1px dashed #CCC;
+    &:first-child {
+      border-top: none;
+    }
+    &:last-child {
+      border-bottom: 1px solid #AAA;
+    }
+  }
+  th, td {
     border-bottom: none;
-    vertical-align: top
-}
-.table-classification strong
-{
-    font-weight: 600
+    vertical-align: top;
+  }
+  th.col25, td.col25 {
+    width: 25%;
+  }
+  th.col33, td.col33 {
+    width: 33%;
+  }
+  th.col50, td.col50 {
+    width: 50%;
+  }
+  th.col75, td.col50 {
+    width: 75%;
+  }
 }

@@ -1,4 +1,4 @@
-﻿// Max-width set for optimum reading length on headings 
+﻿// Max-width set for optimum reading length on headings
 .heading-xlarge, .bold-xlarge {
     max-width: 11.875em;
 }
@@ -61,4 +61,27 @@ label strong {
   -webkit-hyphens: auto;
   hyphens: auto;
 
+}
+
+
+
+dl
+{
+  margin: 0;
+}
+
+dt
+{
+  margin: 0;
+  padding: 0;
+  &.heading-medium
+  {
+    margin-bottom: 0
+  }
+}
+
+dd
+{
+  margin: 0;
+  padding: 0;
 }

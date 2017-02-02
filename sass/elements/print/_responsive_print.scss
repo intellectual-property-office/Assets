@@ -7,6 +7,25 @@
   margin-bottom: 1em !important;
 }
 
+.inline-gallery{
+  width: auto !important;
+  display: inline-block;
+  clear: none;
+}
+
 .related {
   border-top: 1px solid #000 !important;
+}
+
+/* REMOVE SURPLUS COLUMN */
+.column-narrow
+{
+  display: none;
+}
+
+/* REMOVE SURPLUS BORDERS */
+.results-header,
+.chkbox-wrap .results
+{
+  border-bottom: none !important;
 }
