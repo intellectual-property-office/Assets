@@ -14,5 +14,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/intellectual-property-office/Assets"
+  },
+  "bugs": {
+    "url" : "https://github.com/intellectual-property-office/Assets/issues",
+    "email" : "uxteam@ipo.gov.uk"
   }
 }
