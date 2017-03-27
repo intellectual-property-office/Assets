@@ -6,7 +6,7 @@ This is the npm package for the UK Intellectual Property Offices frontend SASS s
 
 ## How can it be used
 
-It has been built as an addon for the existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> package.
+UK IPO assets have been built as an addon for the existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> package.
 
 When compiled with GOV.UK Elements, it will produce CSS stylesheets ready for use on IPO projects.
 
