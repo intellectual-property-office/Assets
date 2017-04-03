@@ -1,19 +1,19 @@
 ﻿#messages {
 	padding: 1em 0 1em 45px;
     border-bottom: 1px solid #bfc1c3;
-    background-image: url("/assets/images/icon-important.png");
+    background-image: url("../images/icon-important.png");
     background-repeat: no-repeat;
     background-position: left center;
 }
 
 #notice {
-    background: url("/assets/images/icon-important.png") no-repeat scroll 0 0.5em;
+    background: url("../images/icon-important.png") no-repeat scroll 0 0.5em;
     padding: 0.1em 0 0.1em 1em;
     margin: 2em 0 0 0;
     overflow: auto;
 
     @include media(mobile) {
-        background-image: url("/assets/images/icon-important.png");
+        background-image: url("../images/icon-important.png");
         background-size: 26px 26px;
     }
     p {

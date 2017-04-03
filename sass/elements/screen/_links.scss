@@ -15,7 +15,7 @@ a.back-to-previous, a.back-to-previous:visited {
 	text-decoration: none;
 	border-bottom: #0b0c0c 1px solid;
 	width: 2.25em;
-	background: url("/assets/images/icon-caret-left.png") left 0.2em no-repeat;
+	background: url("../images/icon-caret-left.png") left 0.2em no-repeat;
 	padding-left: 0.75em;
 	text-align: right;
 	overflow: hidden;
@@ -25,16 +25,16 @@ a.back-to-previous, a.back-to-previous:visited {
     margin-top: $gutter;
 }
 a[rel="external"]:after {
-  background-image: url(/assets/images/external-link.png);
+  background-image: url(external-links/external-link.png);
   @include device-pixel-ratio() {
-      background-image: url(/assets/images/external-link-24x24.png);
+      background-image: url(external-links/external-link-24x24.png);
       background-size: 12px 400px;
   }
 }
 .external-link:after {
-  background-image: url(/assets/images/external-link.png);
+  background-image: url(external-links/external-link.png);
   @include device-pixel-ratio() {
-      background-image: url(/assets/images/external-link-black-24x24.png);
+      background-image: url(external-links/external-link-black-24x24.png);
       background-size: 12px 400px;
   }
 }
@@ -44,18 +44,18 @@ a[rel="external"]:after {
 .button-start,
 .button-get-started {
   @include bold-24;
-  background-image: url("/assets/images/icon-pointer.png");
+  background-image: url("../images/icon-pointer.png");
   background-repeat: no-repeat;
   background-position: 100% 50%;
   padding: em(7) em(41) em(4) em(16);
 
   @include device-pixel-ratio {
-    background-image: url("/assets/images/icon-pointer-2x.png");
+    background-image: url("../images/icon-pointer-2x.png");
     background-size: 30px 19px;
   }
 
   @include ie(6) {
-    background-image: url("/assets/images/icon-pointer-2x.png");
+    background-image: url("../images/icon-pointer-2x.png");
   }
 }
 

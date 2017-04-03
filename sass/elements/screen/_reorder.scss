@@ -10,7 +10,7 @@
 	height: 11em;
 	position: relative;
 	z-index: 1;
-    background: url('/assets/images/draggable.png') repeat-y top left;
+    background: url('../images/draggable.png') repeat-y top left;
 
 	.uploaded-number {
 		position: absolute;
@@ -30,7 +30,7 @@
 @media(max-width: 640px) {
     .reorder.desktop
     {
-        background: url('/assets/images/draggable-mobile.png') repeat-y top left;
+        background: url('../images/draggable-mobile.png') repeat-y top left;
         /*display: none*/
 
         .uploaded-number {

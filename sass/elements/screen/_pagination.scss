@@ -46,7 +46,7 @@
 			float: right;
 			text-align: right;
 			a::before {
-				background: transparent url(/assets/images/arrow-sprite.png) no-repeat scroll -102px -10px;
+				background: transparent url(../images/arrow-sprite.png) no-repeat scroll -102px -10px;
 				content: " ";
 				display: block;
 				float: right;
@@ -62,7 +62,7 @@
 			float: left;
 			text-align: left;
 			a::before {
-				background: transparent url(/assets/images/arrow-sprite.png) no-repeat scroll -20px -10px;
+				background: transparent url(../images/arrow-sprite.png) no-repeat scroll -20px -10px;
 				content: " ";
 				display: block;
 				float: left;
