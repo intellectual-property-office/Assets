@@ -229,3 +229,34 @@
 		outline: 3px solid $yellow
 
 }
+
+/* DISPLAY IMAGES */
+/* Use instead of the .upload-* ones for playing back uploaded images */
+.display-image-wrap {
+    border: 1px solid #dee0e2;
+    margin: 0;
+    padding: 0.5em;
+    position: relative;
+}
+
+.display-image {
+    height: 150px;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
+.display-image img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: auto;
+    width: auto;
+}
