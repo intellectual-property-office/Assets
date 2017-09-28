@@ -1,7 +1,7 @@
 /* IMAGE SLIDER */
 
 div.slide {
-  border-top: 1px dashed #888 !important;
+  border-top: 1px solid #CCC !important;
 }
 
 .slick-list {
@@ -33,15 +33,16 @@ div.slide {
   }
 }
 
-.uploaded-image {
+.uploaded-image, .uploaded-text {
   text-align: left !important;
   clear: both;
-  img {
-    max-height: none;
-    height: auto;
-    max-width: 200px;
-    position: relative;
-  }
+}
+
+.uploaded-image img {
+  max-height: none;
+  height: auto;
+  max-width: 200px;
+  position: relative;
 }
 
 .image-thumbnail-wrap {
@@ -53,6 +54,9 @@ div.slide {
   width: 8em;
 }
 
-.results {
-  border-bottom: none;
+.grid-row.uploads .column-third {
+  display: inline-block !important;
+  float: left !important;
+  width: 33% !important;
+  clear: none;
 }

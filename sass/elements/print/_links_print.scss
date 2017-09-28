@@ -1,6 +1,6 @@
-
-
-/* SHOW URL AFTER LINKS*/
-a[href^="/"]:after, a[href^="http://"]:after, a[href^="https://"]:after{
-  content: "";
+/* HIDE URL AFTER LINKS */
+a {
+  &.no-print-url:after, &[href^="/"]:after, &[href^="http://"]:after, &[href^="https://"]:after {
+    content: "";
+  }
 }
