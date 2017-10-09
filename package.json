@@ -1,7 +1,25 @@
 {
-  "name": "myproject",
-  "version": "1.0.0",
+  "name": "ipo-assets-frontend",
+  "version": "1.0.37",
+  "description": "Intellectual Property Office internal CSS styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "govuk-elements-sass": "^3.1.2"
+  },
+  "keywords": [
+    "IPO"
+  ],
+  "author": "Intellectual Property Office UX Team <userexperience@ipo.gov.uk>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intellectual-property-office/Assets"
+  },
+  "bugs": {
+    "url": "https://github.com/intellectual-property-office/Assets/issues",
+    "email": "uxteam@ipo.gov.uk"
   }
 }

@@ -52,8 +52,7 @@
     <None Include="ipo-assets-frontend\.vs\config\applicationhost.config" />
     <None Include="ipo-assets-frontend\.vs\slnx.sqlite" />
     <None Include="ipo-assets-frontend\.vs\VSWorkspaceState.json" />
-    <None Include="ipo-assets-frontend\package.json" />
-    <None Include="ipo-assets-frontend\README.md" />
+    <None Include="README.md" />
     <None Include="ipo-assets-frontend\sass\elements\print\_breadcrumbs_print.scss" />
     <None Include="ipo-assets-frontend\sass\elements\print\_element-visibility_print.scss" />
     <None Include="ipo-assets-frontend\sass\elements\print\_expandable-content_print.scss" />
@@ -165,6 +164,7 @@
     <None Include="package.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="export\css\ipo-fonts.css" />
     <Content Include="export\css\ipo-fonts.min.css">
       <DependentUpon>ipo-fonts.css</DependentUpon>
