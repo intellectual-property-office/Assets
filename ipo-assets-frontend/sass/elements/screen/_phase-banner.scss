@@ -1,0 +1,14 @@
+﻿.phase-banner-alpha  {
+  @include phase-banner();
+}
+
+.phase-banner-beta  {
+  @include phase-banner();
+}
+
+.alpha-tag{
+  @include phase-tag();
+}
+.beta-tag{
+  @include phase-tag();
+}
