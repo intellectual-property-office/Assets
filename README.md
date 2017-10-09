@@ -35,14 +35,15 @@ UK IPO assets are available in two forms. This repository provides you with ever
 * A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> (if you wish to manually compile your own stylsheets). 
 
 ## Installation
-As a Visual Studio project for development: 
+
+#### As a Visual Studio project for development: 
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
 * Clone this repository and open the solution file.  
 * Run the 'npm install' command in the root directory to download project dependencies.
 
 
-As a Node.js module run the following command:
+#### As a Node.js module run the following command:
 ```sh
 $ npm i ipo-assets-frontend
 ```
