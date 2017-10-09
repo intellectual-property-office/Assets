@@ -1,0 +1,62 @@
+/* IMAGE SLIDER */
+
+div.slide {
+  border-top: 1px solid #CCC !important;
+}
+
+.slick-list {
+  height: auto !important;
+}
+
+.slick-track {
+  transform: none !important;
+  width: auto !important;
+}
+
+.slick-slide {
+  float: none;
+  display: block;
+  width: 100% !important;
+}
+
+.slick-cloned {
+  display: none !important;
+}
+
+div.slide {
+  dt {
+    font-size: 140%;
+    text-align: left !important;
+  }
+  dd {
+    text-align: left !important;
+  }
+}
+
+.uploaded-image, .uploaded-text {
+  text-align: left !important;
+  clear: both;
+}
+
+.uploaded-image img {
+  max-height: none;
+  height: auto;
+  max-width: 200px;
+  position: relative;
+}
+
+.image-thumbnail-wrap {
+  float: none;
+  height: 8em;
+  margin-top: 1em;
+  position: relative;
+  text-align: left;
+  width: 8em;
+}
+
+.grid-row.uploads .column-third {
+  display: inline-block !important;
+  float: left !important;
+  width: 33% !important;
+  clear: none;
+}

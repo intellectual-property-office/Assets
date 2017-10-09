@@ -1,0 +1,38 @@
+#global-header.agency {
+  .header-wrapper .header-global .header-logo {
+    width: 100%;
+    margin: 5px 0 2px;
+  }
+
+  #logo img {
+    visibility: inherit;
+    position: relative;
+    padding-right: 6px;
+    float: left;
+    display: inline;
+    line-height: inherit;
+    border: none;
+    margin: 0;
+  }
+
+  #logo {
+    background: inherit;
+    top: -1px;
+    position: relative;
+    font-size: 27px;
+    line-height: 1.11111;
+    font-weight: 400;
+    text-transform: none;
+    font-family: Arial,sans-serif;
+    height: 30px;
+    vertical-align: baseline;
+    margin-bottom: -3px;
+    padding-top: 2px;
+  }
+}
+
+#global-header #logo img.crest {
+  width: 47px;
+  height: 42px;
+  top: -9px;
+}

@@ -1,5 +1,0 @@
-F:\GitHub\Assets\bin\Debug\ClassLibrary.dll
-F:\GitHub\Assets\bin\Debug\ClassLibrary.pdb
-F:\GitHub\Assets\obj\Debug\IPO-Assets-test.csproj.CoreCompileInputs.cache
-F:\GitHub\Assets\obj\Debug\ClassLibrary.dll
-F:\GitHub\Assets\obj\Debug\ClassLibrary.pdb

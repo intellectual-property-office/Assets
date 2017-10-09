@@ -1,0 +1,30 @@
+/* HEADER */
+#global-header, .header-wrapper, .header-global, .header-logo {
+  display: block;
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+
+#global-header {
+  padding: 10px 0 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000 !important;
+  display: block;
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+
+.header-global, .header-logo, .header-wrapper {
+  display: block;
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+
+#global-header {
+  padding: 10px 0 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000 !important;
+}

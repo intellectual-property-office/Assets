@@ -1,0 +1,15 @@
+/* LOGO */
+#global-header #logo {
+  color: #000 !important;
+  float: none;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  line-height: 25px !important;
+  display: block;
+  img {
+    display: none;
+    &.crest {
+      display: none;
+    }
+  }
+}

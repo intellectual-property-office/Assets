@@ -1,0 +1,58 @@
+// Radio buttons & checkboxes
+
+// By default, multiple choice inputs stack vertically
+.multiple-choice {
+
+  [type=checkbox] + input[type="hidden"] + label::before {
+    content: "";
+    border: 2px solid;
+    background: transparent;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  [type=checkbox] + input[type="hidden"] + label::after {
+    content: "";
+    border: solid;
+    border-width: 0 0 5px 5px;
+    background: transparent;
+    width: 17px;
+    height: 7px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    -moz-transform: rotate(-45deg); // Firefox 15 compatibility
+    -o-transform: rotate(-45deg); // Opera 12.0 compatibility
+    -webkit-transform: rotate(-45deg); // Safari 8 compatibility
+    -ms-transform: rotate(-45deg); // IE9 compatibility
+    transform: rotate(-45deg);
+    @include opacity(0);
+  }
+
+  // Focused state
+  [type=radio]:focus + label::before {
+    @include box-shadow(0 0 0 4px $focus-colour);
+  }
+
+  [type=checkbox]:focus + input[type="hidden"] + label::before {
+    @include box-shadow(0 0 0 3px $focus-colour);
+  }
+
+  // Selected state
+  [type=radio]:checked + label::after,
+  [type=checkbox]:checked + input[type="hidden"] + label::after,
+  [type=checkbox]:checked + label::after {
+    @include opacity(1);
+  }
+
+  // Disabled state
+  [type=radio]:disabled + label,
+  [type=checkbox]:disabled + input[type="hidden"] + label
+  [type=checkbox]:disabled + label {
+    @include opacity(0.5);
+  }
+
+}
