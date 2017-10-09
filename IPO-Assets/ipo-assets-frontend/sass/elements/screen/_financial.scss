@@ -1,0 +1,23 @@
+/*########################
+#### Deposit Accounts ####
+########################*/
+
+.current-balance {
+  text-align: right;
+  span {
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 640px) {
+  .current-balance {
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .current-balance span {
+    font-size: 30px;
+  }
+}

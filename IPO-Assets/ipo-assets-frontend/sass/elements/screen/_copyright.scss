@@ -1,0 +1,14 @@
+.copyright-notice {
+    clear: left;
+    position: relative;
+
+    @include ie(6) {
+        zoom: 1;
+    }
+
+    p {
+        @include core-16;
+        margin: 0;
+        padding-top: 0.1em;
+    }
+}

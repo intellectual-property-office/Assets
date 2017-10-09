@@ -1,0 +1,31 @@
+/* SHOW CONTENT ON PRINT */
+
+.print-only {
+  display: block !important;
+}
+
+hr {
+  &.print {
+    border: none;
+    display: block !important;
+    border-top: 1px solid #000;
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+  &.dashed {
+    display: block !important;
+    height: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 1px dashed #ccc;
+    border-top: 0;
+  }
+}
+
+/* HIDE CONTENT ON PRINT */
+
+#footer, .phase-banner-alpha, .topmenu, .section-tabs, details, button, .button, .no-print, .link-back, .pagination-alt {
+  display: none !important;
+}

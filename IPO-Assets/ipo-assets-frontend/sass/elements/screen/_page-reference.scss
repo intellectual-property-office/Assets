@@ -1,0 +1,13 @@
+﻿.page-reference {
+    display: block;
+    background-color: $yellow;
+    @include bold-24;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 27px;
+    padding: 13px;
+    @include media(mobile) {
+        height: auto;
+    }
+}

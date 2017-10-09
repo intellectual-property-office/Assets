@@ -1,0 +1,6 @@
+/* HIDE URL AFTER LINKS */
+a {
+  &.no-print-url:after, &[href^="/"]:after, &[href^="http://"]:after, &[href^="https://"]:after {
+    content: "";
+  }
+}

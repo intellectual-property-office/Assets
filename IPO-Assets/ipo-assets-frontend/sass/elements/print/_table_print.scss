@@ -1,0 +1,27 @@
+
+.table-classification {
+  width: 100% !important;
+  border-top: 1px dashed #BBB !important;
+  border-bottom: 1px dashed #BBB !important;
+  tr {
+    border-bottom: 1px dashed #CCC;
+  }
+  th {
+    text-align: left;
+  }
+  td {
+    padding: 0.3em 0;
+  }
+  th.col25, td.col25 {
+    width: 25% !important;
+  }
+  th.col33, td.col33 {
+    width: 33% !important;
+  }
+  th.col50, td.col50 {
+    width: 50% !important;
+  }
+  th.col75, td.col50 {
+    width: 75% !important;
+  }
+}
