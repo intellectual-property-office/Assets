@@ -8,7 +8,7 @@ They are also available independently as a <a href="https://www.npmjs.com/packag
 $ npm i ipo-assets-frontend
 ```
 
-## How can it be used
+## Usage
 
 UK IPO assets have been built as an addon for the existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> and <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>  packages.
 
@@ -16,7 +16,9 @@ When compiled with GOV.UK Elements, it will produce CSS stylesheets ready for us
 
 ## Requirements
 
-As a Visual Studio project:
+UK IPO assets are available in two forms. This repository provides you with everything you should need to start development, while the Node.js package is intended for the end user.
+
+#### As a Visual Studio project:
 * <a href="https://www.visualstudio.com/">Microsoft Visual Studio</a>. 
 * <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
 * <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
@@ -25,19 +27,19 @@ As a Visual Studio project:
 * A compiler such as <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a>.
  
 
-As a Node.js module:
+#### As a Node.js module:
 * <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
 * <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
   * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>.  
   * <a href="https://github.com/alphagov/govuk_template">GOV.UK Template</a>. 
-* A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a>. 
+* A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> (if you wish to manually compile your own stylsheets). 
 
 ## Installation
 As a Visual Studio project for development: 
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
 * Clone this repository and open the solution file.  
-* Run 'npm install' command in the root directory.
+* Run the 'npm install' command in the root directory to download project dependencies.
 
 
 As a Node.js module run the following command:
