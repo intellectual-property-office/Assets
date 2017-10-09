@@ -50,9 +50,6 @@
     <None Include="export\scss\main-ie7.scss" />
     <None Include="export\scss\main-ie8.scss" />
     <None Include="export\scss\main.scss" />
-    <None Include="ipo-assets-frontend\.vs\config\applicationhost.config" />
-    <None Include="ipo-assets-frontend\.vs\slnx.sqlite" />
-    <None Include="ipo-assets-frontend\.vs\VSWorkspaceState.json" />
     <None Include="README.md" />
     <None Include="ipo-assets-frontend\sass\elements\print\_breadcrumbs_print.scss" />
     <None Include="ipo-assets-frontend\sass\elements\print\_element-visibility_print.scss" />
@@ -362,9 +359,7 @@
     <Content Include="node_modules\govuk_frontend_toolkit\javascripts\vendor\jquery\jquery.player.min.js" />
     <Content Include="node_modules\govuk_frontend_toolkit\javascripts\vendor\polyfills\bind.js" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ipo-assets-frontend\.vs\IPO-Assets\v15\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
