@@ -35,7 +35,7 @@ As a Node.js module:
 ## Installation
 As a Visual Studio project for development: 
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
-* Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a>
+* Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio
 * Clone this repository and open the solution file.  
 * Run 'npm install' command in the root directory.
 
