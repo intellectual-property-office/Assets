@@ -42,7 +42,7 @@ The Node.js package is intended for the end user.
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
 * Clone this repository: 
     ```sh
-    git clone https://github.com/intellectual-property-office/Assets.git
+    https://github.com/intellectual-property-office/Assets.git
     ``` 
 * Install all project dependencies:
     ```sh
