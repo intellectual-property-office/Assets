@@ -1,22 +1,23 @@
 # UK Intellectual Property Office Assets
 
-This project contains all UK Intellectual Property Offices frontend SASS stylesheets.
+This project is used to build the UK Intellectual Property Office frontend UI styling.
 
-They are also available independently as a <a href="https://www.npmjs.com/package/ipo-assets-frontend">Node.js module</a>:
+The styles heets are also available independently as a <a href="https://www.npmjs.com/package/ipo-assets-frontend">Node.js module</a>:
 
 ```sh
-$ npm i ipo-assets-frontend
+npm i ipo-assets-frontend
 ```
 
 ## Usage
 
-UK IPO assets have been built as an addon for the existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> and <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>  packages.
+UK IPO assets have been built as an addon for existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> and <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>  packages.
 
-When compiled with GOV.UK Elements, it will produce CSS stylesheets ready for use on IPO projects.
+When compiled with GOV.UK Frontend, it will produce styles heets ready for use on UK IPO projects.
 
 ## Requirements
 
-UK IPO assets are available in two forms. This repository provides you with everything you should need to start development, while the Node.js package is intended for the end user.
+UK IPO assets are available in two forms. This repository provides you with everything you should need to start development. 
+The Node.js package is intended for the end user.
 
 #### As a Visual Studio project:
 * <a href="https://www.visualstudio.com/">Microsoft Visual Studio</a>. 
@@ -39,15 +40,26 @@ UK IPO assets are available in two forms. This repository provides you with ever
 #### As a Visual Studio project for development: 
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
-* Clone this repository and open the solution file.  
-* Run the 'npm install' command in the root directory to download project dependencies.
-
+* Clone this repository: 
+    ```sh
+    git clone https://github.com/intellectual-property-office/Assets.git
+    ``` 
+* Install all project dependencies:
+    ```sh
+    npm install
+    ``` 
+* Open the Visual Studio solution file
 
 #### As a Node.js module run the following command:
-```sh
-$ npm i ipo-assets-frontend
-```
-
+* Download and install <a href="https://nodejs.org/en/">Node.js</a>.
+* Install the UK IPO assets module: 
+    ```sh
+    npm i ipo-assets-frontend
+    ```
+* Install all dependencies:
+    ```sh
+    npm install
+    ```
 
 ## Help
 
