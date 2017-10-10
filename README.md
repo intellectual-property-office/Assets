@@ -2,7 +2,7 @@
 
 This project is used to build the UK Intellectual Property Office frontend UI styling.
 
-The styles heets are also available independently as a <a href="https://www.npmjs.com/package/ipo-assets-frontend">Node.js module</a>:
+The style sheets are also available independently as a <a href="https://www.npmjs.com/package/ipo-assets-frontend">Node.js module</a>:
 
 ```sh
 npm i ipo-assets-frontend
@@ -37,7 +37,10 @@ The Node.js package is intended for the end user.
 
 ## Installation
 
-#### As a Visual Studio project for development: 
+#### As a Visual Studio project: 
+
+This is recommended for users who wish to make changes to the style sheets.
+
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
 * Clone this repository: 
@@ -50,9 +53,12 @@ The Node.js package is intended for the end user.
     ``` 
 * Open the Visual Studio solution file
 
-#### As a Node.js module run the following command:
+#### As a Node.js module:
+
+This is recommended for users who wish to use the style sheets. 
+
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
-* Install the UK IPO assets module: 
+* Run the following command to install the UK IPO assets module: 
     ```sh
     npm i ipo-assets-frontend
     ```
