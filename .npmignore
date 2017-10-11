@@ -8,8 +8,10 @@
 *.user
 *.userosscache
 *.sln.docstates
-export/
-.git/
+*.sln
+*.csproj
+compilerconfig.json
+compilerconfig.json.defaults
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
