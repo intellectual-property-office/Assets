@@ -12,9 +12,9 @@
 *.csproj
 compilerconfig.json
 compilerconfig.json.defaults
-export/
-.git/
-packages/
+/export
+/.git
+/packages
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
