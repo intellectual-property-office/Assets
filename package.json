@@ -3,9 +3,6 @@
   "version": "1.1.9",
   "description": "Intellectual Property Office internal CSS styles.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "govuk-elements-sass": "^3.1.2"
   },
