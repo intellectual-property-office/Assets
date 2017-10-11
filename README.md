@@ -24,7 +24,6 @@ The Node.js package is intended for the end user.
 * <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
 * <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
   * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>.  
-  * <a href="https://github.com/alphagov/govuk_template">GOV.UK Template</a>. 
 * A compiler such as <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a>.
  
 
@@ -32,7 +31,6 @@ The Node.js package is intended for the end user.
 * <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
 * <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
   * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>.  
-  * <a href="https://github.com/alphagov/govuk_template">GOV.UK Template</a>. 
 * A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> (if you wish to manually compile your own stylsheets). 
 
 ## Installation
