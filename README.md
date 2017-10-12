@@ -1,32 +1,69 @@
 # UK Intellectual Property Office Assets
 
-This is the npm package for the UK Intellectual Property Offices frontend SASS stylesheets.
+This project is used to build the UK Intellectual Property Office frontend UI styling.
 
-<a href="https://www.npmjs.com/package/ipo-assets-frontend">ipo-assets-frontend</a>
+The style sheets are also available independently as a <a href="https://www.npmjs.com/package/ipo-assets-frontend">Node.js module</a>:
 
-## How can it be used
+```sh
+npm i ipo-assets-frontend
+```
 
-UK IPO assets have been built as an addon for the existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> package.
+## Usage
 
-When compiled with GOV.UK Elements, it will produce CSS stylesheets ready for use on IPO projects.
+UK IPO assets have been built as an addon for existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> and <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>  packages.
 
-This package forms part of the <a href="https://github.com/intellectual-property-office/FrontendBuildTool">IPO Frontend Build Tool</a>
+When compiled with GOV.UK Frontend, it will produce styles heets ready for use on UK IPO projects.
 
 ## Requirements
 
-* <a href="https://nodejs.org/en/">Node.js</a> version 3.X+
-* <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> 
-  * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>  
-  * <a href="https://github.com/alphagov/govuk_template">GOV.UK Template</a> 
-* A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> 
+UK IPO assets are available in two forms. This repository provides you with everything you should need to start development. 
+The Node.js package is intended for the end user.
+
+#### As a Visual Studio project:
+* <a href="https://www.visualstudio.com/">Microsoft Visual Studio</a>. 
+* <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
+* <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
+  * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>.  
+* A compiler such as <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a>.
+ 
+
+#### As a Node.js module:
+* <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
+* <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
+  * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>.  
+* A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> (if you wish to manually compile your own stylsheets). 
 
 ## Installation
 
-Run the following command:
+#### As a Visual Studio project: 
 
-```sh
-$ npm i ipo-assets-frontend
-```
+This is recommended for users who wish to make changes to the style sheets.
+
+* Download and install <a href="https://nodejs.org/en/">Node.js</a>.
+* Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
+* Clone this repository: 
+    ```sh
+    https://github.com/intellectual-property-office/Assets.git
+    ``` 
+* Install all project dependencies:
+    ```sh
+    npm install
+    ``` 
+* Open the Visual Studio solution file
+
+#### As a Node.js module:
+
+This is recommended for users who wish to use the style sheets. 
+
+* Download and install <a href="https://nodejs.org/en/">Node.js</a>.
+* Run the following command to install the UK IPO assets module: 
+    ```sh
+    npm i ipo-assets-frontend
+    ```
+* Install all dependencies:
+    ```sh
+    npm install
+    ```
 
 ## Help
 
