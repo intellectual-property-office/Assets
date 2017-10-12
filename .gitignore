@@ -8,7 +8,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-export/css/
+export/css
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
