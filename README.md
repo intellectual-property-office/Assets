@@ -12,7 +12,7 @@ npm i ipo-assets-frontend
 
 UK IPO assets have been built as an addon for existing <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a> and <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>  packages.
 
-When compiled with GOV.UK Frontend, it will produce styles heets ready for use on UK IPO projects.
+When compiled with GOV.UK Frontend, it will produce style sheets ready for use on UK IPO projects.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ The Node.js package is intended for the end user.
 * <a href="https://nodejs.org/en/">Node.js</a> version 3.X+.
 * <a href="https://github.com/alphagov/govuk_elements">GOV.UK Elements</a>. 
   * <a href="https://github.com/alphagov/govuk_frontend_toolkit">GOV.UK Frontend Toolkit</a>.  
-* A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> (if you wish to manually compile your own stylsheets). 
+* A SASS compiler such as <a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> (if you wish to manually compile your own style sheets). 
 
 ## Installation
 
