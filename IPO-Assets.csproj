@@ -69,7 +69,6 @@
     <None Include="public\sass\elements\print\_typography_print.scss" />
     <None Include="public\sass\elements\screen\_accessibility.scss" />
     <None Include="public\sass\elements\screen\_copyright.scss" />
-    <None Include="public\sass\elements\screen\_deprecated.scss" />
     <None Include="public\sass\elements\screen\_display.scss" />
     <None Include="public\sass\elements\screen\_example-boxes.scss" />
     <None Include="public\sass\elements\screen\_filter.scss" />
