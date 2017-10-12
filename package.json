@@ -5,7 +5,7 @@
   "main": "index.js",
   "files": [
     "public/",
-    "export/",
+    "export/scss",
     "README.md"
   ],
   "dependencies": {
