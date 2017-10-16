@@ -4,52 +4,51 @@
 
 // Progressive Disclosure: Margin fix
 .progressive-disclosure-help {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 // Progressive Disclosure: Fixes the firefox outline bug, also aligns arrows correctly
 .toggle {
-  @include core-19;
-  line-height: 1.5;
-  font-weight: 400;
-  text-transform: none;
-  display: none;
-  clear: both;
-  margin: 1em 0;
-  padding-right: 0.3em;
+    @include core-19;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: none;
+    display: none;
+    clear: both;
+    margin: 1em 0;
+    padding-right: 0.3em;
 }
 
 .toggle-closed {
-  background: url("../images/icon-caret-right.png") no-repeat scroll 0.1em 0.45em;
-  padding-left: 0.75em;
+    background: url("../images/icon-caret-right.png") no-repeat scroll 0.1em 0.45em;
+    padding-left: 0.75em;
 }
 
 .toggle-open {
-  background: url("../images/icon-caret-down.png") no-repeat scroll left 0.6em;
-  padding-left: 0.75em;
+    background: url("../images/icon-caret-down.png") no-repeat scroll left 0.6em;
+    padding-left: 0.75em;
 }
 
 // Progressive Disclosure: Make embedded imagery responsive
 .panel-indent {
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  // Progressive Disclosure: No left border
-  &.no-style {
-    border-left: 0;
-    padding: 0;
-    margin: 0;
-  }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    // Progressive Disclosure: No left border
+    &.no-style {
+        border-left: 0;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 // Progressive Disclosure: Make embedded imagery responsive
 @media (min-width: 641px) {
-  .panel-indent img {
-    width: auto;
-    height: auto;
-  }
+    .panel-indent img {
+        width: auto;
+        height: auto;
+    }
 }
 
 /*###########################
@@ -57,93 +56,88 @@
 ###########################*/
 
 .help-guide {
-  ul li {
-    padding-bottom: 5px;
-  }
-
-  /* Help Guide Container */
-  .help-guide-content {
-    border-left: 1px solid #CCC;
-    padding-left: 2em;
-  }
-
-  /* TYPOGRAPHY */
-  h2.heading-large {
-    margin-top: 0;
-  }
-
-  h3.heading-medium {
-    font-size: 28px;
-  }
-
-  h4.heading-medium {
-    font-size: 22px;
-  }
-
-  /* Bullet List: Nested */
-  .list-bullet {
-    &.sub {
-      margin: 0 0 0.5em 0.5em;
+    ul li {
+        padding-bottom: 5px;
+    }
+    /* Help Guide Container */
+    .help-guide-content {
+        border-left: 1px solid #CCC;
+        padding-left: 2em;
+    }
+    /* TYPOGRAPHY */
+    h2.heading-large {
+        margin-top: 0;
     }
 
-    &.sub-sub {
-      margin: 0.5em 0 1em 0.5em;
-      list-style: circle;
+    h3.heading-medium {
+        font-size: 28px;
     }
 
-    &.sub li,
-    &.sub-sub li {
-      font-size: 16px;
-      color: #005ea5;
+    h4.heading-medium {
+        font-size: 22px;
     }
+    /* Bullet List: Nested */
+    .list-bullet {
+        &.sub {
+            margin: 0 0 0.5em 0.5em;
+        }
 
-    &.sub li a,
-    &.sub-sub li a {
-      font-size: 16px;
+        &.sub-sub {
+            margin: 0.5em 0 1em 0.5em;
+            list-style: circle;
+        }
+
+        &.sub li,
+        &.sub-sub li {
+            font-size: 16px;
+            color: #005ea5;
+        }
+
+        &.sub li a,
+        &.sub-sub li a {
+            font-size: 16px;
+        }
     }
-  }
+    /* Tables: Bordered */
+    table.bordered {
+        border: 1px solid #CCC;
+        margin: 0.5em 0;
 
-  /* Tables: Bordered */
-  table.bordered {
-    border: 1px solid #CCC;
-    margin: 0.5em 0;
+        th {
+            padding: 0.5em;
+            border-right: 1px solid #CCC;
+            background-color: #EFEFEF;
+        }
 
-    th {
-      padding: 0.5em;
-      border-right: 1px solid #CCC;
-      background-color: #EFEFEF;
+        td {
+            padding: 0.5em;
+            border-right: 1px solid #CCC;
+        }
     }
+    /* Back to top button */
+    #topbtn {
+        display: none;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 94, 165, 1);
+        color: #FFF;
+        cursor: pointer;
+        padding: 1em;
 
-    td {
-      padding: 0.5em;
-      border-right: 1px solid #CCC;
+        &:hover {
+            background-color: rgba(0, 94, 165, 0.8);
+        }
     }
-  }
-
-  /* Back to top button */
-  #topbtn {
-    display: none;
-    position: fixed;
-    bottom: 1em;
-    right: 1em;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: rgba(0, 94, 165, 1);
-    color: #FFF;
-    cursor: pointer;
-    padding: 1em;
-
-    &:hover {
-      background-color: rgba(0, 94, 165, 0.8);
-    }
-  }
 }
 
 /* Help guide container */
 @media (max-width: 640px) {
-  .help-guide .help-guide-content {
-    border-left: none;
-    padding-left: 1em;
-  }
+    .help-guide .help-guide-content {
+        border-left: none;
+        padding-left: 1em;
+    }
 }
