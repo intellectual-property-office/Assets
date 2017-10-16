@@ -1,0 +1,36 @@
+﻿// Section
+section {
+    margin-bottom: $gutter*1.5;
+    padding: 0;
+}
+// Related: Blue border
+.related {
+    border-top: 10px solid #005ea5;
+    margin: 0;
+    padding-bottom: 1em;
+}
+// Divider: Solid
+.divider {
+    display: block;
+    border-bottom: 1px solid $border-colour;
+    padding-bottom: $gutter;
+    margin-bottom: $gutter;
+}
+// Divider: Dash
+.divider.dashed {
+    border-bottom: 1px dashed $grey-3;
+}
+// Clearfix
+.group:after,
+.group:before {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}

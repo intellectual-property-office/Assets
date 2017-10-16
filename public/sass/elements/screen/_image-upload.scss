@@ -1,0 +1,25 @@
+﻿.column-quarter.thumb-description {
+    padding: 0;
+    float: right;
+    width: 20%;
+}
+
+.column-quarter.thumb-description .uploaded-image-wrap {
+    margin: 0;
+    width: auto;
+}
+
+.column-quarter.thumb-description .uploaded-image {
+    height: 100px;
+}
+
+@media (max-width: 801px) {
+    .column-quarter.thumb-description {
+        float: none;
+        width: auto;
+    }
+
+    .column-quarter.thumb-description .uploaded-image-wrap {
+        margin: 0 0 1em;
+    }
+}
