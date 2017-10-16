@@ -78,7 +78,6 @@
     <None Include="public\sass\elements\screen\_fonts.scss" />
     <None Include="public\sass\elements\screen\_font_stack.scss" />
     <None Include="public\sass\elements\screen\_footer.scss" />
-    <None Include="public\sass\elements\screen\_footer_fix.scss" />
     <None Include="public\sass\elements\screen\_form-multiple-choice.scss" />
     <None Include="public\sass\elements\screen\_form-placeholder.scss" />
     <None Include="public\sass\elements\screen\_form-validation.scss" />
