@@ -5,7 +5,7 @@ section {
 }
 // Related: Blue border
 .related {
-    border-top: 10px solid #005ea5;
+    border-top: 10px solid $govuk-blue;
     margin: 0;
     padding-bottom: 1em;
 }
@@ -21,16 +21,15 @@ section {
     border-bottom: 1px dashed $grey-3;
 }
 // Clearfix
-.group:after,
-.group:before {
-    content: "";
-    display: table;
-}
-
-.group:after {
-    clear: both;
-}
-
 .group {
+    &:after, &:before {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+
     zoom: 1;
 }
