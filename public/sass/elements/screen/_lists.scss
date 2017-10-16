@@ -4,13 +4,16 @@ dl.data {
         margin-left: 0;
     }
 }
+
 ul.selection-list {
     margin: $gutter 0 $gutter*2;
+
     li {
         margin: 0 0 $gutter-half;
         font-weight: bold;
     }
 }
+
 li {
     a {
         .page-reference {
@@ -23,15 +26,16 @@ li {
         }
     }
 }
+
 .no-bullet {
     list-style-type: none;
+
     li {
         margin-bottom: 1em;
     }
 }
 
 
-.file-upload li
-{
+.file-upload li {
     @include core-16
 }
