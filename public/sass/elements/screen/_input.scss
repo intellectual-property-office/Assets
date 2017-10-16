@@ -2,68 +2,31 @@
     padding: 0.5em;
 }*/
 
-/// TODO: SASS up
-
 .form-control-select {
-  @include core-19;
-  background-color: white;
-  border: 1px solid #bfc1c3;
-  width: 100%;
+    @include core-19;
+    background-color: $white;
+    border: 1px solid $grey-2;
+    width: 100%;
 }
 
-@media only screen and (min-width: 641px)
-{
+@media only screen and (min-width: 641px) {
     .form-control-select {
         width: 50%;
     }
-}
-
-/// Radios and checkboxes
-
-label.selectable {
-    display: block;
-    position: relative;
-    background: #F0F0F0;
-    padding: 12px 14px 12px 16px;
-    margin: 0 0 1em 0;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-@media only screen and (min-width: 641px)
-{
-    label.selectable {
-	    float: left;
-        clear: left;
-	    line-height: 140%;
-	    margin-right: 1em;
-    }
-}
-
-label.selectable-inline {
-    clear: none;
-}
-
-label.selectable-focus {
-    outline:solid 3px #ffbf47;
-}
-
-label.selectable-focus input:focus {
-    outline:none
 }
 
 fieldset.form-group {
     margin-left: 0;
 }
 
-
-
 /* Form Field Modifier */
-.form-modifier.wide textarea
-{
-    width: 100%;
-}
-.form-modifier.narrow textarea
-{
-    height: 4em
+
+.form-modifier {
+    &.wide textarea {
+        width: 100%;
+    }
+
+    &.narrow textarea {
+        height: 4em;
+    }
 }
