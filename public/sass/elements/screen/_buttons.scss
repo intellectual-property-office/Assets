@@ -1,0 +1,62 @@
+﻿// Button fix: Outline border fix (Firefox )
+.button:focus {
+    overflow: hidden;
+}
+
+// Start now buttons
+.button-start,
+.button-get-started {
+  @include bold-24;
+  background-image: url("../images/icon-pointer.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding: em(7) em(41) em(4) em(16);
+
+  @include device-pixel-ratio {
+    background-image: url("../images/icon-pointer-2x.png");
+    background-size: 30px 19px;
+  }
+
+  @include ie(6) {
+    background-image: url("../images/icon-pointer-2x.png");
+  }
+}
+
+// Class to align links styled as buttons to centre text used with GovUkButton helper
+.link-button {
+    text-align: center;
+}
+
+// save and return button
+
+.button-return {
+    @include button ($govuk-blue);
+    @include box-sizing (border-box);
+    padding: em(10) em(15) em(5) em(15);
+    margin: 0em 0 0 1em;
+    vertical-align: top;
+
+    @include media (mobile) {
+        width: 100%;
+        margin: 1em 0 0 0;
+    }
+}
+
+// Fix unwanted button padding in Firefox
+.button-return::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.button-return:focus {
+  outline: 3px solid $focus-colour;
+}
+
+// Disabled buttons
+.button-return[disabled="disabled"] {
+    background: $govuk-blue;
+}
+
+.button-return[disabled="disabled"]:focus {
+  outline: none;
+}

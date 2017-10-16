@@ -53,6 +53,7 @@
     <None Include="public\sass\elements\screen\_colours.scss" />
     <None Include="public\sass\elements\screen\_layout.scss" />
     <None Include="public\sass\elements\screen\_image-upload.scss" />
+    <None Include="public\sass\elements\screen\_buttons.scss" />
     <None Include="README.md" />
     <None Include="public\sass\elements\print\_breadcrumbs_print.scss" />
     <None Include="public\sass\elements\print\_element-visibility_print.scss" />
