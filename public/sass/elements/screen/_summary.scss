@@ -5,14 +5,18 @@
     text-align: center;
     padding: $gutter 0 $gutter-two-thirds;
     margin-top: $gutter;
+
     h1 {
         margin: 0 0 20px 0;
     }
+
     dl {
         margin: 0;
+
         dt {
             margin: 0;
         }
+
         dd {
             margin: 0 0 10px;
         }
@@ -22,8 +26,10 @@
 
 .total {
     font-size: 1.3em;
-    font-weight: bold; }
+    font-weight: bold;
+}
 
 #total-amount {
     font-size: 2.0em;
-    font-weight: bold; }
+    font-weight: bold;
+}
