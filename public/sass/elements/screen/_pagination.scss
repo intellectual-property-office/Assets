@@ -3,160 +3,189 @@
 ########################################*/
 
 .pagination {
-	display: block;
-	margin: 2em 0;
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-	li {
-		float: left;
-		display: inline-block;
-		font-weight: 400;
-		list-style: outside none none;
-		margin: 0;
-		padding: 0;
-		text-transform: none;
-		width: 100%;
-		a {
-			background-color: transparent;
-			color: $govuk-blue;
-			display: block;
-			text-decoration: none;
+    display: block;
+    margin: 2em 0;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+        display: inline-block;
+        font-weight: 400;
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+        text-transform: none;
+        width: 100%;
+
+        a {
+            background-color: transparent;
+            color: $govuk-blue;
+            display: block;
+            text-decoration: none;
             height: 30px;
-			&:hover {
-				background-color: $grey-4;
-			}
-			&:active {
-				background-color: $grey-4;
-			}
-			.pagination-label {
-				display: block;
-				font-size: 20px;
-				font-weight: 400;
-				line-height: 1.6;
-				margin-bottom: 0.1em;
-				text-transform: none;
-			}
-			.pagination-part-title {
-				text-decoration: underline;
-			}
-		}
-		&.next {
-			float: right;
-			text-align: right;
-			a::before {
-				background: transparent url(../images/arrow-sprite.png) no-repeat scroll -102px -10px;
-				content: " ";
-				display: block;
-				float: right;
-				height: 40px;
-				margin: -4px -32px 0 0;
-				width: 30px;
-			}
-			a {
-				padding: 0.75em 3em 0.75em 0;
-			}
-		}
-		&.previous {
-			float: left;
-			text-align: left;
-			a::before {
-				background: transparent url(../images/arrow-sprite.png) no-repeat scroll -20px -10px;
-				content: " ";
-				display: block;
-				float: left;
-				height: 40px;
-				margin: -4px 0 0 -32px;
-				width: 30px;
-			}
-			a {
-				padding: 0.75em 0 0.75em 3em;
-			}
-		}
-	}
-	.first {
-		min-height: 4.5em;
-		span {
-				display: block;
-	            min-height: 4.5em;
-	            padding: 0.75em 5%;
-	            width: 90%;
-		}
-		.pagination-label {
-			display: block;
-			margin-bottom: 0.5em;
-		}
-	}
-	.last {
-		min-height: 4.5em;
-		span {
-				display: block;
-	            min-height: 4.5em;
-	            padding: 0.75em 5%;
-	            width: 90%;
-		}
-		.pagination-label {
-			display: block;
-			margin-bottom: 0.5em;
-		}
-	}
+
+            &:hover {
+                background-color: $grey-4;
+            }
+
+            &:active {
+                background-color: $grey-4;
+            }
+
+            .pagination-label {
+                display: block;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 1.6;
+                margin-bottom: 0.1em;
+                text-transform: none;
+            }
+
+            .pagination-part-title {
+                text-decoration: underline;
+            }
+        }
+
+        &.next {
+            float: right;
+            text-align: right;
+
+            a::before {
+                background: transparent url(../images/arrow-sprite.png) no-repeat scroll -102px -10px;
+                content: " ";
+                display: block;
+                float: right;
+                height: 40px;
+                margin: -4px -32px 0 0;
+                width: 30px;
+            }
+
+            a {
+                padding: 0.75em 3em 0.75em 0;
+            }
+        }
+
+        &.previous {
+            float: left;
+            text-align: left;
+
+            a::before {
+                background: transparent url(../images/arrow-sprite.png) no-repeat scroll -20px -10px;
+                content: " ";
+                display: block;
+                float: left;
+                height: 40px;
+                margin: -4px 0 0 -32px;
+                width: 30px;
+            }
+
+            a {
+                padding: 0.75em 0 0.75em 3em;
+            }
+        }
+    }
+
+    .first {
+        min-height: 4.5em;
+
+        span {
+            display: block;
+            min-height: 4.5em;
+            padding: 0.75em 5%;
+            width: 90%;
+        }
+
+        .pagination-label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+    }
+
+    .last {
+        min-height: 4.5em;
+
+        span {
+            display: block;
+            min-height: 4.5em;
+            padding: 0.75em 5%;
+            width: 90%;
+        }
+
+        .pagination-label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+    }
 }
-.pagination .page-count
-{
+
+.pagination .page-count {
     text-align: center;
     line-height: 3em
 }
 
 
 @media(max-width: 640px) {
-	.pagination {
-		margin: 1em 0 0;
-		li {
-			&.previous {
-				float: none;
-				width: 100%;
-			}
-			&.next {
-				float: right;
-				width: 100%;
-				a {
-					text-align: right;
-				}
-			}
-		}
+    .pagination {
+        margin: 1em 0 0;
 
-	}
+        li {
+            &.previous {
+                float: none;
+                width: 100%;
+            }
+
+            &.next {
+                float: right;
+                width: 100%;
+
+                a {
+                    text-align: right;
+                }
+            }
+        }
+    }
 }
+
 @media(max-width: 640px) {
     .pagination li.previous a::before {
         float: none;
     }
+
     .pagination li.next a::before {
         float: none;
     }
+
     .pagination li a .pagination-label {
-    display: none
+        display: none
     }
 }
+
 @media(min-width: 641px) {
-	.pagination li {
-		font-size: 16px;
-		line-height: 1.25;
-		a .pagination-label {
-			font-size: 27px;
-			line-height: 1.25;
-		}
-	}
+    .pagination li {
+        font-size: 16px;
+        line-height: 1.25;
+
+        a .pagination-label {
+            font-size: 27px;
+            line-height: 1.25;
+        }
+    }
 }
 
-.grid-row.pagination .column-quarter {
-	float: left;
-	width: 25%;
-	padding: 0 1em;
-}
-.grid-row.pagination .column-half {
-	float: left;
-	width: 50%;
-	padding: 0;
+.grid-row.pagination {
+    .column-quarter {
+        float: left;
+        width: 25%;
+        padding: 0 1em;
+    }
+
+    .column-half {
+        float: left;
+        width: 50%;
+        padding: 0;
+    }
 }
