@@ -93,7 +93,6 @@
     <None Include="public\sass\elements\screen\_lightbox.scss" />
     <None Include="public\sass\elements\screen\_links.scss" />
     <None Include="public\sass\elements\screen\_lists.scss" />
-    <None Include="public\sass\elements\screen\_local-colours.scss" />
     <None Include="public\sass\elements\screen\_messages.scss" />
     <None Include="public\sass\elements\screen\_page-reference.scss" />
     <None Include="public\sass\elements\screen\_pagination.scss" />
