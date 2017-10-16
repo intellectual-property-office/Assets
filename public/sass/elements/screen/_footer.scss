@@ -1,9 +1,10 @@
 ﻿body {
-    margin: 0 0 271px; /* bottom = footer height + border (1px)*/
-}
-
-body.no-footer {
-    margin-bottom: 0; /* bottom = footer height + border (1px)*/
+    margin: 0 0 271px;
+    /* bottom = footer height + border (1px)*/
+    &.no-footer {
+        margin-bottom: 0;
+        /* bottom = footer height + border (1px)*/
+    }
 }
 
 footer {
