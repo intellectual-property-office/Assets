@@ -1,15 +1,15 @@
 ﻿// Form validation
 // ==========================================================================
 
-// Update the error colour in the govuk frontend toolkit
+// Update the error colour in the GOVUK frontend toolkit
 $error-colour: #b10e1e;
 
 // Update toolkit
 $focus-colour: $yellow;
 
-// Using the classname .error as it's shorter than .validation and easier to type!
+// Using the class name .error as it's shorter than .validation and easier to type!
 .error {
-    // Ensure the .error class is applied to .form-group, otherwide box-sizing(border-box) will need to be used
+    // Ensure the .error class is applied to .form-group, otherwise box-sizing(border-box) will need to be used
     // @include box-sizing(border-box);
     margin-right: 15px;
     // Error messages should be red and bold
