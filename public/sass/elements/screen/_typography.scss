@@ -2,23 +2,29 @@
 .heading-xlarge, .bold-xlarge {
     max-width: 11.875em;
 }
+
 .heading-large, .bold-large {
     max-width: 15.833em;
 }
+
 .heading-medium, .bold-medium {
     max-width: 23.750em;
 }
+
 .heading-small, .bold-small {
     max-width: 30em;
 }
+
 .subtitle {
-  color: $grey-1;
-  @include core-24;
-  margin: $gutter 0 0 0;
+    color: $grey-1;
+    @include core-24;
+    margin: $gutter 0 0 0;
 }
+
 p.subtitle + h1.heading-xlarge {
     margin-top: 0;
 }
+
 #global-header.department {
     #logo {
         @include bold-24;
@@ -28,9 +34,9 @@ p.subtitle + h1.heading-xlarge {
 // Code styles, overriding govuk_elements > _elements-typography > pre,code
 pre,
 code {
-  font-size: inherit;
-  border: inherit;
-  word-wrap:break-word;
+    font-size: inherit;
+    border: inherit;
+    word-wrap: break-word;
 }
 
 // "post-code" needs to be deprecated and replaced by "force-case"
@@ -48,40 +54,32 @@ label strong {
 
 // stop text from breacking out of container
 .dont-break-out {
-
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
-
-
-dl
-{
-  margin: 0;
+dl {
+    margin: 0;
 }
 
-dt
-{
-  margin: 0;
-  padding: 0;
-  &.heading-medium
-  {
-    margin-bottom: 0
-  }
+dt {
+    margin: 0;
+    padding: 0;
+
+    &.heading-medium {
+        margin-bottom: 0
+    }
 }
 
-dd
-{
-  margin: 0;
-  padding: 0;
+dd {
+    margin: 0;
+    padding: 0;
 }
