@@ -135,3 +135,16 @@
         }
     }
 }
+
+.tab-content {
+    clear: both;
+    margin: 0;
+
+    .inner {
+        padding: 0;
+    }
+}
+
+.tab-pane {
+    padding: 0;
+}
