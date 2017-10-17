@@ -2,10 +2,12 @@
     .heading-medium {
         margin-top: $gutter-two-thirds;
     }
+
     .heading-medium, p {
         max-width: 570px;
     }
 }
+
 table + p {
     margin-top: $gutter-half;
 }
@@ -16,14 +18,17 @@ table + p {
 
 .table-basic {
     margin: 0;
+
     th {
         border-bottom: none;
         vertical-align: top
     }
+
     td {
         border-bottom: none;
         vertical-align: top
     }
+
     strong {
         font-weight: bold;
     }
@@ -31,30 +36,38 @@ table + p {
 
 
 .table-classification {
-  margin: 0;
-  tr {
-    border-bottom: 1px dashed #CCC;
-    &:first-child {
-      border-top: none;
+    margin: 0;
+
+    tr {
+        border-bottom: 1px dashed #CCC;
+
+        &:first-child {
+            border-top: none;
+        }
+
+        &:last-child {
+            border-bottom: 1px solid #AAA;
+        }
     }
-    &:last-child {
-      border-bottom: 1px solid #AAA;
+
+    th, td {
+        border-bottom: none;
+        vertical-align: top;
     }
-  }
-  th, td {
-    border-bottom: none;
-    vertical-align: top;
-  }
-  th.col25, td.col25 {
-    width: 25%;
-  }
-  th.col33, td.col33 {
-    width: 33%;
-  }
-  th.col50, td.col50 {
-    width: 50%;
-  }
-  th.col75, td.col50 {
-    width: 75%;
-  }
+
+    th.col25, td.col25 {
+        width: 25%;
+    }
+
+    th.col33, td.col33 {
+        width: 33%;
+    }
+
+    th.col50, td.col50 {
+        width: 50%;
+    }
+
+    th.col75, td.col50 {
+        width: 75%;
+    }
 }
