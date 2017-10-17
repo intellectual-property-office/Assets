@@ -83,3 +83,20 @@ dd {
     margin: 0;
     padding: 0;
 }
+
+/* Grey sub headings */
+.sub-heading {
+    color: $grey-1;
+    font-size: 38px;
+    margin-bottom: 1.2em;
+    margin-top: -1.4em;
+    line-height: 1.2em
+}
+
+@media (max-width: 640px) {
+    .sub-heading {
+        font-size: 26px;
+        margin-top: -1em;
+    }
+}
+
