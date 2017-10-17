@@ -148,3 +148,20 @@
 .tab-pane {
     padding: 0;
 }
+
+.nav-tabs {
+    @include media(tablet) {
+        margin: 0;
+        padding: 0 30px;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    .active {
+        a {
+            outline: none;
+        }
+    }
+}
