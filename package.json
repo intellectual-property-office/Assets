@@ -6,6 +6,7 @@
   "files": [
     "public/",
     "export/scss",
+    "export/javascripts",
     "README.md"
   ],
   "dependencies": {
