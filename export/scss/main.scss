@@ -1,10 +1,10 @@
 ﻿//GOVUK Frontend Styles
-@import "../../ipo-assets-frontend/sass/govuk-frontend-import";
+@import "../../public/scss/govuk-frontend-import.scss";
 
 // Path to assets for use with the file-url function
 // in the govuk frontend toolkit's url-helpers partial 
 $path: "../../node_modules/govuk_frontend_toolkit/images/"; 
 
 //IPO Screen Styles
-@import "../../ipo-assets-frontend/sass/ipo-screen-elements";
+@import "../../public/scss/ipo-screen-elements.scss";
 

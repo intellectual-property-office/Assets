@@ -225,6 +225,14 @@
     <Content Include="export\css\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="export\javascripts\control-helper-classic.js" />
+    <Content Include="export\javascripts\control-helper-classic.min.js">
+      <DependentUpon>control-helper-classic.js</DependentUpon>
+    </Content>
+    <Content Include="export\javascripts\control-helper-modern.js" />
+    <Content Include="export\javascripts\control-helper-modern.min.js">
+      <DependentUpon>control-helper-modern.js</DependentUpon>
+    </Content>
     <Content Include="node_modules\font-awesome\css\font-awesome.css" />
     <Content Include="node_modules\font-awesome\css\font-awesome.min.css" />
     <Content Include="node_modules\font-awesome\fonts\fontawesome-webfont.svg" />

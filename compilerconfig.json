@@ -22,5 +22,13 @@
   {
     "outputFile": "export/css/ipo-print.css",
     "inputFile": "export/scss/ipo-print.scss"
+  },
+  {
+    "outputFile": "export/javascripts/control-helper-classic.js",
+    "inputFile": "public/javascripts/control-helper-classic.js"
+  },
+  {
+    "outputFile": "export/javascripts/control-helper-modern.js",
+    "inputFile": "public/javascripts/control-helper-modern.js"
   }
 ]
