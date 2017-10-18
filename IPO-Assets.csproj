@@ -91,6 +91,7 @@
     <None Include="public\scss\elements\screen\_layout.scss" />
     <None Include="public\scss\elements\screen\_image-upload.scss" />
     <None Include="public\scss\elements\screen\_buttons.scss" />
+    <None Include="public\scss\_govuk-elements-import.scss" />
     <None Include="README.md" />
     <None Include="public\scss\elements\print\_breadcrumbs_print.scss" />
     <None Include="public\scss\elements\print\_element-visibility_print.scss" />
@@ -144,7 +145,6 @@
     <None Include="public\scss\elements\screen\_tabs.scss" />
     <None Include="public\scss\elements\screen\_typography.scss" />
     <None Include="public\scss\elements\screen\_upload.scss" />
-    <None Include="public\scss\_govuk-frontend-import.scss" />
     <None Include="public\scss\_ipo-fonts.scss" />
     <None Include="public\scss\_ipo-print-elements.scss" />
     <None Include="public\scss\_ipo-screen-elements.scss" />
