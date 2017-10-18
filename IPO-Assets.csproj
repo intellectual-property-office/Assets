@@ -39,6 +39,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -86,6 +87,13 @@
     <None Include="node_modules\font-awesome\scss\_screen-reader.scss" />
     <None Include="node_modules\font-awesome\scss\_stacked.scss" />
     <None Include="node_modules\font-awesome\scss\_variables.scss" />
+    <None Include="node_modules\govuk_template_ejs\assets\stylesheets\fonts\GDSTransportTabular-Bold.eot" />
+    <None Include="node_modules\govuk_template_ejs\assets\stylesheets\fonts\GDSTransportTabular-Light.eot" />
+    <None Include="node_modules\govuk_template_ejs\assets\stylesheets\fonts\GDSTransportWebsite-Bold.eot" />
+    <None Include="node_modules\govuk_template_ejs\assets\stylesheets\fonts\GDSTransportWebsite.eot" />
+    <None Include="node_modules\govuk_template_ejs\package.json" />
+    <None Include="node_modules\govuk_template_ejs\README.md" />
+    <None Include="node_modules\govuk_template_ejs\VERSION" />
     <None Include="public\scss\elements\screen\_auto-complete.scss" />
     <None Include="public\scss\elements\screen\_colours.scss" />
     <None Include="public\scss\elements\screen\_layout.scss" />
@@ -201,30 +209,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="export\css\ipo-fonts.css" />
-    <Content Include="export\css\ipo-fonts.min.css">
-      <DependentUpon>ipo-fonts.css</DependentUpon>
-    </Content>
-    <Content Include="export\css\ipo-print.css" />
-    <Content Include="export\css\ipo-print.min.css">
-      <DependentUpon>ipo-print.css</DependentUpon>
-    </Content>
-    <Content Include="export\css\main-ie6.css" />
-    <Content Include="export\css\main-ie6.min.css">
-      <DependentUpon>main-ie6.css</DependentUpon>
-    </Content>
-    <Content Include="export\css\main-ie7.css" />
-    <Content Include="export\css\main-ie7.min.css">
-      <DependentUpon>main-ie7.css</DependentUpon>
-    </Content>
-    <Content Include="export\css\main-ie8.css" />
-    <Content Include="export\css\main-ie8.min.css">
-      <DependentUpon>main-ie8.css</DependentUpon>
-    </Content>
-    <Content Include="export\css\main.css" />
-    <Content Include="export\css\main.min.css">
-      <DependentUpon>main.css</DependentUpon>
-    </Content>
     <Content Include="export\javascripts\control-helper-classic.js" />
     <Content Include="export\javascripts\control-helper-classic.min.js">
       <DependentUpon>control-helper-classic.js</DependentUpon>
@@ -233,10 +217,68 @@
     <Content Include="export\javascripts\control-helper-modern.min.js">
       <DependentUpon>control-helper-modern.js</DependentUpon>
     </Content>
+    <Content Include="export\stylesheets\fonts-ie8.min.css" />
+    <Content Include="export\stylesheets\fonts.min.css" />
+    <Content Include="export\stylesheets\govuk-template-ie6.min.css" />
+    <Content Include="export\stylesheets\govuk-template-ie7.min.css" />
+    <Content Include="export\stylesheets\govuk-template-ie8.min.css" />
+    <Content Include="export\stylesheets\govuk-template-print.min.css" />
+    <Content Include="export\stylesheets\govuk-template.min.css" />
+    <Content Include="export\stylesheets\ipo-fonts.css" />
+    <Content Include="export\stylesheets\ipo-fonts.min.css">
+      <DependentUpon>ipo-fonts.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\ipo-print.css" />
+    <Content Include="export\stylesheets\ipo-print.min.css">
+      <DependentUpon>ipo-print.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\main-ie6.css" />
+    <Content Include="export\stylesheets\main-ie6.min.css">
+      <DependentUpon>main-ie6.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\main-ie7.css" />
+    <Content Include="export\stylesheets\main-ie7.min.css">
+      <DependentUpon>main-ie7.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\main-ie8.css" />
+    <Content Include="export\stylesheets\main-ie8.min.css">
+      <DependentUpon>main-ie8.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\main.css" />
+    <Content Include="export\stylesheets\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
     <Content Include="node_modules\font-awesome\css\font-awesome.css" />
     <Content Include="node_modules\font-awesome\css\font-awesome.min.css" />
     <Content Include="node_modules\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="node_modules\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\apple-touch-icon-152x152.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\apple-touch-icon-167x167.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\apple-touch-icon-180x180.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\apple-touch-icon.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\favicon.ico" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\gov.uk_logotype_crown.svg" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\gov.uk_logotype_crown_invert.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\gov.uk_logotype_crown_invert_trans.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\images\opengraph-image.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\javascripts\govuk-template.js" />
+    <Content Include="node_modules\govuk_template_ejs\assets\javascripts\ie.js" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\fonts-ie8.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\fonts.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\govuk-template-ie6.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\govuk-template-ie7.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\govuk-template-ie8.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\govuk-template-print.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\govuk-template.css" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\close.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\gov.uk_logotype_crown-1x.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\gov.uk_logotype_crown.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\govuk-crest-2x.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\govuk-crest-ie.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\govuk-crest.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\open-government-licence.png" />
+    <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\open-government-licence_2x.png" />
+    <Content Include="node_modules\govuk_template_ejs\views\layouts\govuk_template.html" />
     <Content Include="public\external-links\external-link-24x24.png" />
     <Content Include="public\external-links\external-link-black-12x12.png" />
     <Content Include="public\external-links\external-link-black-24x24.png" />

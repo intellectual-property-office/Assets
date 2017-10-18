@@ -1,26 +1,26 @@
 ﻿[
   {
-    "outputFile": "export/css/main.css",
+    "outputFile": "export/stylesheets/main.css",
     "inputFile": "export/scss/main.scss"
   },
   {
-    "outputFile": "export/css/main-ie6.css",
+    "outputFile": "export/stylesheets/main-ie6.css",
     "inputFile": "export/scss/main-ie6.scss"
   },
   {
-    "outputFile": "export/css/main-ie7.css",
+    "outputFile": "export/stylesheets/main-ie7.css",
     "inputFile": "export/scss/main-ie7.scss"
   },
   {
-    "outputFile": "export/css/main-ie8.css",
+    "outputFile": "export/stylesheets/main-ie8.css",
     "inputFile": "export/scss/main-ie8.scss"
   },
   {
-    "outputFile": "export/css/ipo-fonts.css",
+    "outputFile": "export/stylesheets/ipo-fonts.css",
     "inputFile": "export/scss/ipo-fonts.scss"
   },
   {
-    "outputFile": "export/css/ipo-print.css",
+    "outputFile": "export/stylesheets/ipo-print.css",
     "inputFile": "export/scss/ipo-print.scss"
   },
   {

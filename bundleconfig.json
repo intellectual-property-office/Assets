@@ -1,0 +1,44 @@
+[
+  {
+    "outputFileName": "export/stylesheets/fonts-ie8.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/fonts-ie8.css"
+    ]
+  },
+  {
+    "outputFileName": "export/stylesheets/fonts.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/fonts.css"
+    ]
+  },
+  {
+    "outputFileName": "export/stylesheets/govuk-template-ie6.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/govuk-template-ie6.css"
+    ]
+  },
+  {
+    "outputFileName": "export/stylesheets/govuk-template-ie7.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/govuk-template-ie7.css"
+    ]
+  },
+  {
+    "outputFileName": "export/stylesheets/govuk-template-ie8.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/govuk-template-ie8.css"
+    ]
+  },
+  {
+    "outputFileName": "export/stylesheets/govuk-template-print.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/govuk-template-print.css"
+    ]
+  },
+  {
+    "outputFileName": "export/stylesheets/govuk-template.min.css",
+    "inputFiles": [
+      "node_modules/govuk_template_ejs/assets/stylesheets/govuk-template.css"
+    ]
+  }
+]
