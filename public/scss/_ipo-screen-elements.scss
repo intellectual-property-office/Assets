@@ -1,12 +1,21 @@
-// IPO Local Screen Elements
+// IPO local screen elements
 // Sass variables, mixins and functions
 
+//Structure
 @import "./elements/screen/accessibility.scss";
+@import "./elements/screen/colours.scss";
+@import "./elements/screen/display.scss";
+@import "./elements/screen/grid.scss";
+@import "./elements/screen/input.scss";
+@import "./elements/screen/layout.scss";
+@import "./elements/screen/reorder.scss";
+@import "./elements/screen/remove-element.scss";
+@import "./elements/screen/typography.scss";
+
+//Modules
 @import "./elements/screen/auto-complete.scss";
 @import "./elements/screen/buttons.scss";
 @import "./elements/screen/copyright.scss";
-@import "./elements/screen/colours.scss";
-@import "./elements/screen/display.scss";
 @import "./elements/screen/example-boxes.scss";
 @import "./elements/screen/filter.scss";
 @import "./elements/screen/financial.scss";
@@ -16,13 +25,10 @@
 @import "./elements/screen/form-placeholder.scss";
 @import "./elements/screen/form-validation.scss";
 @import "./elements/screen/gallery.scss";
-@import "./elements/screen/grid.scss";
 @import "./elements/screen/header.scss";
 @import "./elements/screen/help.scss";
 @import "./elements/screen/image-upload.scss";
-@import "./elements/screen/input.scss";
 @import "./elements/screen/label.scss";
-@import "./elements/screen/layout.scss";
 @import "./elements/screen/lightbox.scss";
 @import "./elements/screen/links.scss";
 @import "./elements/screen/lists.scss";
@@ -30,12 +36,14 @@
 @import "./elements/screen/page-reference.scss";
 @import "./elements/screen/pagination.scss";
 @import "./elements/screen/phase-banner.scss";
-@import "./elements/screen/reorder.scss";
 @import "./elements/screen/search.scss";
 @import "./elements/screen/search-results.scss";
 @import "./elements/screen/summary.scss";
 @import "./elements/screen/table.scss";
 @import "./elements/screen/tabs.scss";
-@import "./elements/screen/typography.scss";
 @import "./elements/screen/upload.scss";
-@import "./elements/screen/remove-element.scss";
+
+//Vendor
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+

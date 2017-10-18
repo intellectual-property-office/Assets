@@ -20,7 +20,7 @@
         padding: em(4) em(15);
         @include core-14;
         background: $grey-2;
-        color: white;
+        color: $white;
     }
     // Blue text for heading sizes
     .highlight {

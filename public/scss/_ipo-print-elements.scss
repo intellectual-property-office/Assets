@@ -1,0 +1,25 @@
+// IPO local print elements
+// Sass variables, mixins and functions
+
+//Structure
+@import "./elements/print/element-visibility_print.scss";
+@import "./elements/print/page_print.scss";
+@import "./elements/print/responsive_print.scss";
+@import "./elements/print/typography_print.scss";
+
+//Modules
+@import "./elements/print/breadcrumbs_print.scss";
+@import "./elements/print/expandable-content_print.scss";
+@import "./elements/print/footer_print.scss";
+@import "./elements/print/header_print.scss";
+@import "./elements/print/help_print.scss";
+@import "./elements/print/image_print.scss";
+@import "./elements/print/label_print.scss";
+@import "./elements/print/links_print.scss";
+@import "./elements/print/logo_print.scss";
+@import "./elements/print/search_print.scss";
+@import "./elements/print/slider_print.scss";
+@import "./elements/print/tabs_print.scss";
+@import "./elements/print/table_print.scss";
+
+//Vendor
