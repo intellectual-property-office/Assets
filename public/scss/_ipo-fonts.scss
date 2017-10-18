@@ -1,5 +1,9 @@
 // IPO Local Screen Elements
 // Sass variables, mixins and functions
 
+//Local
 @import "./elements/screen/font_stack.scss";
 @import "./elements/screen/fonts.scss";
+
+//Vendor
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
