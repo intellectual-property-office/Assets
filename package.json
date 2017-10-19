@@ -6,7 +6,7 @@
   "files": [
     "public/",
     "export/scss",
-    "export/javascripts",
+    "export/javascripts/*.min.js",
     "export/images",
     "export/stylesheets/fonts",
     "export/stylesheets/images",
