@@ -50,6 +50,10 @@
     <None Include="export\scss\main-ie7.scss" />
     <None Include="export\scss\main-ie8.scss" />
     <None Include="export\scss\main.scss" />
+    <None Include="export\stylesheets\fonts\GDSTransportTabular-Bold.eot" />
+    <None Include="export\stylesheets\fonts\GDSTransportTabular-Light.eot" />
+    <None Include="export\stylesheets\fonts\GDSTransportWebsite-Bold.eot" />
+    <None Include="export\stylesheets\fonts\GDSTransportWebsite.eot" />
     <None Include="node_modules\font-awesome\.npmignore" />
     <None Include="node_modules\font-awesome\css\font-awesome.css.map" />
     <None Include="node_modules\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -209,6 +213,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="export\images\apple-touch-icon-152x152.png" />
+    <Content Include="export\images\apple-touch-icon-167x167.png" />
+    <Content Include="export\images\apple-touch-icon-180x180.png" />
+    <Content Include="export\images\apple-touch-icon.png" />
+    <Content Include="export\images\favicon.ico" />
+    <Content Include="export\images\gov.uk_logotype_crown.svg" />
+    <Content Include="export\images\gov.uk_logotype_crown_invert.png" />
+    <Content Include="export\images\gov.uk_logotype_crown_invert_trans.png" />
+    <Content Include="export\images\opengraph-image.png" />
     <Content Include="export\javascripts\control-helper-classic.js" />
     <Content Include="export\javascripts\control-helper-classic.min.js">
       <DependentUpon>control-helper-classic.js</DependentUpon>
@@ -217,13 +230,50 @@
     <Content Include="export\javascripts\control-helper-modern.min.js">
       <DependentUpon>control-helper-modern.js</DependentUpon>
     </Content>
-    <Content Include="export\stylesheets\fonts-ie8.min.css" />
-    <Content Include="export\stylesheets\fonts.min.css" />
-    <Content Include="export\stylesheets\govuk-template-ie6.min.css" />
-    <Content Include="export\stylesheets\govuk-template-ie7.min.css" />
-    <Content Include="export\stylesheets\govuk-template-ie8.min.css" />
-    <Content Include="export\stylesheets\govuk-template-print.min.css" />
-    <Content Include="export\stylesheets\govuk-template.min.css" />
+    <Content Include="export\javascripts\govuk-template.js" />
+    <Content Include="export\javascripts\govuk-template.min.js">
+      <DependentUpon>govuk-template.js</DependentUpon>
+    </Content>
+    <Content Include="export\javascripts\ie.js" />
+    <Content Include="export\javascripts\ie.min.js">
+      <DependentUpon>ie.js</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\fonts-ie8.css" />
+    <Content Include="export\stylesheets\fonts-ie8.min.css">
+      <DependentUpon>fonts-ie8.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\fonts.css" />
+    <Content Include="export\stylesheets\fonts.min.css">
+      <DependentUpon>fonts.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\govuk-template-ie6.css" />
+    <Content Include="export\stylesheets\govuk-template-ie6.min.css">
+      <DependentUpon>govuk-template-ie6.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\govuk-template-ie7.css" />
+    <Content Include="export\stylesheets\govuk-template-ie7.min.css">
+      <DependentUpon>govuk-template-ie7.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\govuk-template-ie8.css" />
+    <Content Include="export\stylesheets\govuk-template-ie8.min.css">
+      <DependentUpon>govuk-template-ie8.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\govuk-template-print.css" />
+    <Content Include="export\stylesheets\govuk-template-print.min.css">
+      <DependentUpon>govuk-template-print.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\govuk-template.css" />
+    <Content Include="export\stylesheets\govuk-template.min.css">
+      <DependentUpon>govuk-template.css</DependentUpon>
+    </Content>
+    <Content Include="export\stylesheets\images\close.png" />
+    <Content Include="export\stylesheets\images\gov.uk_logotype_crown-1x.png" />
+    <Content Include="export\stylesheets\images\gov.uk_logotype_crown.png" />
+    <Content Include="export\stylesheets\images\govuk-crest-2x.png" />
+    <Content Include="export\stylesheets\images\govuk-crest-ie.png" />
+    <Content Include="export\stylesheets\images\govuk-crest.png" />
+    <Content Include="export\stylesheets\images\open-government-licence.png" />
+    <Content Include="export\stylesheets\images\open-government-licence_2x.png" />
     <Content Include="export\stylesheets\ipo-fonts.css" />
     <Content Include="export\stylesheets\ipo-fonts.min.css">
       <DependentUpon>ipo-fonts.css</DependentUpon>
@@ -456,4 +506,12 @@
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
   </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y /s /i "$(ProjectDir)node_modules\govuk_template_ejs\assets\*" "$(ProjectDir)export"  
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>
