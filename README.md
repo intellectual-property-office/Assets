@@ -49,7 +49,8 @@ This is recommended for users who wish to make changes to the style sheets.
     ```sh
     npm install
     ``` 
-* Open the Visual Studio solution file
+* Open the Visual Studio solution file.
+* Rebuild the solution.
 
 #### As a Node.js module:
 
