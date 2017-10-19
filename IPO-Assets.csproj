@@ -342,10 +342,6 @@
     <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\open-government-licence.png" />
     <Content Include="node_modules\govuk_template_ejs\assets\stylesheets\images\open-government-licence_2x.png" />
     <Content Include="node_modules\govuk_template_ejs\views\layouts\govuk_template.html" />
-    <Content Include="public\external-links\external-link-24x24.png" />
-    <Content Include="public\external-links\external-link-black-12x12.png" />
-    <Content Include="public\external-links\external-link-black-24x24.png" />
-    <Content Include="public\external-links\external-link.png" />
     <Content Include="public\images\arrow-sprite.png" />
     <Content Include="public\images\draggable-mobile.png" />
     <Content Include="public\images\draggable.png" />
