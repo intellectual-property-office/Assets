@@ -22,9 +22,5 @@
   {
     "outputFile": "export/stylesheets/ipo-print.css",
     "inputFile": "export/scss/ipo-print.scss"
-  },
-  {
-    "outputFile": "export/javascripts/control-helper-modern.es5.js",
-    "inputFile": "export/javascripts/control-helper-modern.js"
   }
 ]
