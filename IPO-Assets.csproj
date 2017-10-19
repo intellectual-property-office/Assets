@@ -44,6 +44,18 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <None Include="export\javascripts\control-helper-classic.min.js.map">
+      <DependentUpon>control-helper-classic.min.js</DependentUpon>
+    </None>
+    <None Include="export\javascripts\control-helper-modern.min.js.map">
+      <DependentUpon>control-helper-modern.min.js</DependentUpon>
+    </None>
+    <None Include="export\javascripts\govuk-template.min.js.map">
+      <DependentUpon>govuk-template.min.js</DependentUpon>
+    </None>
+    <None Include="export\javascripts\ie.min.js.map">
+      <DependentUpon>ie.min.js</DependentUpon>
+    </None>
     <None Include="export\scss\ipo-fonts.scss" />
     <None Include="export\scss\ipo-print.scss" />
     <None Include="export\scss\main-ie6.scss" />

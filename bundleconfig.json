@@ -48,24 +48,28 @@
     "outputFileName": "export/javascripts/govuk-template.min.js",
     "inputFiles": [
       "export/javascripts/govuk-template.js"
-    ]
+    ],
+    "sourceMap": true
   },
   {
     "outputFileName": "export/javascripts/ie.min.js",
     "inputFiles": [
       "export/javascripts/ie.js"
-    ]
+    ],
+    "sourceMap": true
   },
   {
     "outputFileName": "export/javascripts/control-helper-modern.min.js",
     "inputFiles": [
       "export/javascripts/control-helper-modern.js"
-    ]
+    ],
+    "sourceMap": true
   },
   {
     "outputFileName": "export/javascripts/control-helper-classic.min.js",
     "inputFiles": [
       "export/javascripts/control-helper-classic.js"
-    ]
+    ],
+    "sourceMap": true
   }
 ]
