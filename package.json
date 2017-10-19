@@ -8,7 +8,9 @@
     "export/scss",
     "export/javascripts",
     "export/images",
-    "export/stylesheets",
+    "export/stylesheets/fonts",
+    "export/stylesheets/images",
+    "export/stylesheets/*.min.css",
     "README.md"
   ],
   "dependencies": {
