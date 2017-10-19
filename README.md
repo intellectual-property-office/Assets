@@ -1,4 +1,4 @@
-# UK Intellectual Property Office Assets
+ UK Intellectual Property Office Assets
 
 This project is used to build the UK Intellectual Property Office frontend UI styling.
 
@@ -40,7 +40,7 @@ The Node.js package is intended for the end user.
 This is recommended for users who wish to make changes to the style sheets.
 
 * Download and install <a href="https://nodejs.org/en/">Node.js</a>.
-* Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Web Compiler</a> or <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
+* Install <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017">Web Essentials 2017</a> for Visual Studio.
 * Clone this repository: 
     ```sh
     https://github.com/intellectual-property-office/Assets.git
