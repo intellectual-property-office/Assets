@@ -1,4 +1,5 @@
 [
+  //CSS
   {
     "outputFileName": "export/stylesheets/fonts-ie8.min.css",
     "inputFiles": [
@@ -41,6 +42,8 @@
       "export/stylesheets/govuk-template.css"
     ]
   },
+
+  //JavaScript
   {
     "outputFileName": "export/javascripts/govuk-template.min.js",
     "inputFiles": [
@@ -51,6 +54,18 @@
     "outputFileName": "export/javascripts/ie.min.js",
     "inputFiles": [
       "export/javascripts/ie.js"
+    ]
+  },
+  {
+    "outputFileName": "export/javascripts/control-helper-modern.min.js",
+    "inputFiles": [
+      "export/javascripts/control-helper-modern.js"
+    ]
+  },
+  {
+    "outputFileName": "export/javascripts/control-helper-classic.min.js",
+    "inputFiles": [
+      "export/javascripts/control-helper-classic.js"
     ]
   }
 ]

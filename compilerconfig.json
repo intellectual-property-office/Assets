@@ -1,5 +1,4 @@
 ﻿[
-  //Stylesheets
   {
     "outputFile": "export/stylesheets/main.css",
     "inputFile": "export/scss/main.scss"
@@ -24,14 +23,8 @@
     "outputFile": "export/stylesheets/ipo-print.css",
     "inputFile": "export/scss/ipo-print.scss"
   },
-
-  //JavaScripts
   {
-    "outputFile": "export/javascripts/control-helper-classic.js",
-    "inputFile": "public/javascripts/control-helper-classic.js"
-  },
-  {
-    "outputFile": "export/javascripts/control-helper-modern.js",
-    "inputFile": "public/javascripts/control-helper-modern.js"
+    "outputFile": "export/javascripts/control-helper-modern.es5.js",
+    "inputFile": "export/javascripts/control-helper-modern.js"
   }
 ]

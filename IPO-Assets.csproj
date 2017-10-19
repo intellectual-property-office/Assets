@@ -217,11 +217,24 @@
     <Content Include="export\images\apple-touch-icon-167x167.png" />
     <Content Include="export\images\apple-touch-icon-180x180.png" />
     <Content Include="export\images\apple-touch-icon.png" />
+    <Content Include="export\images\arrow-sprite.png" />
+    <Content Include="export\images\draggable-mobile.png" />
+    <Content Include="export\images\draggable.png" />
     <Content Include="export\images\favicon.ico" />
     <Content Include="export\images\gov.uk_logotype_crown.svg" />
     <Content Include="export\images\gov.uk_logotype_crown_invert.png" />
     <Content Include="export\images\gov.uk_logotype_crown_invert_trans.png" />
+    <Content Include="export\images\icon-caret-down.png" />
+    <Content Include="export\images\icon-caret-left.png" />
+    <Content Include="export\images\icon-caret-right.png" />
+    <Content Include="export\images\icon-important.png" />
+    <Content Include="export\images\icon-pointer-2x.png" />
+    <Content Include="export\images\icon-pointer.png" />
+    <Content Include="export\images\ipo-favicon.ico" />
     <Content Include="export\images\opengraph-image.png" />
+    <Content Include="export\images\royal-coat-of-arms-white.png" />
+    <Content Include="export\images\royal-coat-of-arms-white.svg" />
+    <Content Include="export\images\search-button.png" />
     <Content Include="export\javascripts\control-helper-classic.js" />
     <Content Include="export\javascripts\control-helper-classic.min.js">
       <DependentUpon>control-helper-classic.js</DependentUpon>
@@ -512,6 +525,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>xcopy /y /s /i "$(ProjectDir)node_modules\govuk_template_ejs\assets\*" "$(ProjectDir)export"  
-</PostBuildEvent>
+xcopy /y /s /i "$(ProjectDir)public\javascripts" "$(ProjectDir)export\javascripts"  
+xcopy /y /s /i "$(ProjectDir)public\images" "$(ProjectDir)export\images"</PostBuildEvent>
   </PropertyGroup>
 </Project>
