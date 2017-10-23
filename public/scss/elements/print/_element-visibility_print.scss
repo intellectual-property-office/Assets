@@ -29,3 +29,8 @@ hr {
 #footer, .phase-banner-alpha, .topmenu, .section-tabs, details, button, .button, .no-print, .link-back, .pagination-alt {
   display: none !important;
 }
+
+//Hide accordion icons
+.subsection__icon {
+    display: none;
+}
