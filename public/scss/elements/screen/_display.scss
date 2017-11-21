@@ -1,6 +1,7 @@
 /* Register details header section */
 .main-details {
     padding: $gutter 0 0;
+
     @include media(mobile) {
         padding-top: $gutter-half;
     }
@@ -13,9 +14,11 @@
         .heading-xlarge {
             margin: 0;
             @include bold-48;
+
             @include media($max-width : 870px) {
-                 @include bold-36;
+                @include bold-36;
             }
+
             @include media(mobile) {
                 margin-bottom: $gutter-half;
             }
@@ -23,6 +26,7 @@
 
         &.offset {
             padding-top: 26px;
+
             @include media(mobile) {
                 margin: 0 0 $gutter-half;
                 padding: 0;
