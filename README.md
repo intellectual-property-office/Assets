@@ -68,4 +68,4 @@ This is recommended for users who wish to use the style sheets.
 
 ## Help
 
-For additional guidance, contact the UX team.
+For additional guidance, contact the IPO UX team.
