@@ -8,6 +8,8 @@
     <AssemblyName>ClassLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -110,6 +112,7 @@
     <None Include="node_modules\govuk_template_ejs\package.json" />
     <None Include="node_modules\govuk_template_ejs\README.md" />
     <None Include="node_modules\govuk_template_ejs\VERSION" />
+    <None Include="packages.config" />
     <None Include="public\scss\elements\screen\_auto-complete.scss" />
     <None Include="public\scss\elements\screen\_colours.scss" />
     <None Include="public\scss\elements\screen\_layout.scss" />
@@ -536,4 +539,11 @@
 xcopy /y /s /i "$(ProjectDir)public\javascripts" "$(ProjectDir)export\javascripts"  
 xcopy /y /s /i "$(ProjectDir)public\images" "$(ProjectDir)export\images"</PostBuildEvent>
   </PropertyGroup>
+  <Import Project="packages\BuildWebCompiler.1.11.326\build\BuildWebCompiler.targets" Condition="Exists('packages\BuildWebCompiler.1.11.326\build\BuildWebCompiler.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\BuildWebCompiler.1.11.326\build\BuildWebCompiler.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\BuildWebCompiler.1.11.326\build\BuildWebCompiler.targets'))" />
+  </Target>
 </Project>
